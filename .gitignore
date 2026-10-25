@@ -1,0 +1,10 @@
+node_modules/
+dist/
+public/assets/
+test-results/
+playwright-report/
+coverage/
+coverage-rendering/
+
+.DS_Store
+.editor-backups/
