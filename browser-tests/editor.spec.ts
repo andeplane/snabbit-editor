@@ -36,8 +36,8 @@ test("number menus, pack4 library and JSON downloads work in the standalone buil
   await page.goto("./");
   await expect(page.getByLabel("Level pack")).toBeVisible();
   await page.getByLabel("Level pack").selectOption("40");
-  await page.getByRole("button", { name: /01 One Small Push/ }).click();
-  await expect(page.getByLabel("Level name")).toHaveValue("A Little Push");
+  await page.getByRole("button", { name: /01 First Light/ }).click();
+  await expect(page.getByLabel("Level name")).toHaveValue("First Light");
   await page.keyboard.press("2");
   await page.keyboard.press("9");
   await page.keyboard.press("4");
