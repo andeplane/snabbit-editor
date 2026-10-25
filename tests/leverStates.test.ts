@@ -65,3 +65,35 @@ it("keeps switches visible after crossing and flips their image using isolated r
   );
   expect(getSpriteForBlock).toHaveBeenCalledWith("=", 0, 1, false);
 });
+
+it("selects bounded intermediate frames without changing the logical state", () => {
+  const requested: HTMLImageElement[] = [];
+  const library = createSpriteLibrary(() => {
+    const img = document.createElement("img");
+    requested.push(img);
+    return img;
+  });
+  library.getSpriteForBlock("=", 0, 0, true, 2);
+  expect(requested[0].src).toContain("switch-transition-2.png");
+  library.getSpriteForBlock("=", 0, 0, true, -8);
+  expect(requested[1].src).toContain("switch-off.png");
+  library.getSpriteForBlock("=", 0, 0, false, 99);
+  expect(requested[2].src).toContain("switch-on.png");
+  const { store } = editor();
+  store.getState().loadLevel(cells(level(), { 1: "=" }));
+  const getSpriteForBlock = vi.fn<RenderAssets["getSpriteForBlock"]>(() =>
+    document.createElement("img"),
+  );
+  renderGrid(
+    graphics().ctx,
+    store.getState(),
+    640,
+    400,
+    [],
+    0,
+    1,
+    { getSpriteForBlock, drawImage: vi.fn() },
+    [3, 0, 0, 0, 0, 0, 0, 0],
+  );
+  expect(getSpriteForBlock).toHaveBeenCalledWith("=", 0, 1, false, 3);
+});

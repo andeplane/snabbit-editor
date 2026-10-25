@@ -1,3 +1,4 @@
+import { LEVER_FRAMES } from "../core/leverAnimation";
 import { appURL } from "../core/paths";
 // Original HD source PNGs, drawn at half resolution. Atlas packing rotation is
 // intentionally irrelevant: these are unrotated, untrimmed source images.
@@ -14,7 +15,7 @@ export const BLOCK_SPRITES: Record<string, string[]> = {
   ":": ["speedup"],
   ";": ["slowdown"],
   "<": ["mesh00"],
-  "=": ["switch-off", "switch-on"],
+  "=": [...LEVER_FRAMES],
 };
 export function spriteURL(name: string) {
   return appURL(
@@ -29,6 +30,7 @@ export interface SpriteLibrary {
     row: number,
     col: number,
     active?: boolean,
+    frame?: number,
   ): HTMLImageElement | null;
   drawImage(
     ctx: DrawContext,
@@ -90,15 +92,17 @@ export function createSpriteLibrary(
       return names.filter((_, i) => !loaded[i]);
     },
     getSprite,
-    getSpriteForBlock(char, row, col, active = false) {
+    getSpriteForBlock(char, row, col, active = false, frame?: number) {
       const variants = BLOCK_SPRITES[char];
       return variants
         ? getSprite(
             variants[
               char === "="
-                ? active
-                  ? 1
-                  : 0
+                ? frame === undefined
+                  ? active
+                    ? 5
+                    : 0
+                  : Math.min(5, Math.max(0, Math.round(frame)))
                 : (row * 3 + col * 7) % variants.length
             ],
           )

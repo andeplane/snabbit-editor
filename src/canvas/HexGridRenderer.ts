@@ -23,6 +23,7 @@ export function renderGrid(
   clock = 0,
   progress = 1,
   assets: RenderAssets = defaultSprites,
+  leverFrames?: readonly number[],
 ) {
   const { scrollY, zoom, width, height, grid, timers } = s;
   ctx.clearRect(0, 0, cw, ch);
@@ -115,7 +116,15 @@ export function renderGrid(
         } else if (block === "=") {
           const channel = s.switches.get(idx) ?? "A";
           const active = !!(mask & (1 << (channel.charCodeAt(0) - 65)));
-          const lever = assets.getSpriteForBlock("=", r, c, active);
+          const lever = leverFrames
+            ? assets.getSpriteForBlock(
+                "=",
+                r,
+                c,
+                active,
+                leverFrames[channel.charCodeAt(0) - 65],
+              )
+            : assets.getSpriteForBlock("=", r, c, active);
           if (lever) {
             // Generated source sprites stay high-resolution; the board footprint
             // remains exactly one 32px cell in either state.

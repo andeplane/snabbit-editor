@@ -1,3 +1,5 @@
+import { createLeverAnimator } from "../core/leverAnimation";
+import type { RunState } from "../core/simulation";
 import { useRef, useEffect, useState } from "react";
 import { useEditorStore } from "../store/editorStore";
 import { renderGrid } from "../canvas/HexGridRenderer";
@@ -89,6 +91,9 @@ export function Canvas({ ports = browserCanvas }: { ports?: CanvasPorts }) {
     };
     const stopObserving = ports.observeSize(canvas, resize);
     resize();
+    let animationTime = 0;
+    const leverAnimator = createLeverAnimator(() => animationTime);
+    let previousRun: RunState | null = null;
     let raf = 0,
       last = 0,
       acc = 0;
@@ -119,6 +124,20 @@ export function Canvas({ ports = browserCanvas }: { ports?: CanvasPorts }) {
           });
       }
       const current = useEditorStore.getState();
+      animationTime = ts;
+      if (current.test !== previousRun) {
+        if (
+          !current.test ||
+          !previousRun ||
+          current.test.time === 0 ||
+          current.test.time < previousRun.time
+        )
+          leverAnimator.reset(current.test?.switchMask ?? 0);
+        previousRun = current.test;
+      }
+      const leverFrames = current.test
+        ? leverAnimator.frames(current.test.switchMask, current.testPlaying)
+        : undefined;
       const fraction =
         current.testPlaying && current.test
           ? Math.min(1, acc / ((FPT[current.test.speed] * 1000) / 60))
@@ -156,6 +175,8 @@ export function Canvas({ ports = browserCanvas }: { ports?: CanvasPorts }) {
         preview.current,
         ts,
         fraction,
+        undefined,
+        leverFrames,
       );
       raf = ports.requestFrame(frame);
     }
