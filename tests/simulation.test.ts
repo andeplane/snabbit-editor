@@ -452,7 +452,7 @@ describe("native scoring, pickups and life timing", () => {
 describe("shipped native Pack 4 fixture", () => {
   it("reproduces the independently checked native straight-right trace and score", () => {
     const packs = parseStoryData(readFileSync(storyFile(), "utf8"));
-    const level = packs["40"].levels[0],
+    const level = packs["40"].levels.find(level => level._id === "4001")!,
       b = importLevel(level);
     let s = startRun(b);
     const switches: { row: number; time: number; mask: number }[] = [];

@@ -36,7 +36,7 @@ test("number menus, pack4 library and JSON downloads work in the standalone buil
   await page.goto("./");
   await expect(page.getByLabel("Level pack")).toBeVisible();
   await page.getByLabel("Level pack").selectOption("40");
-  await page.getByRole("button", { name: /01 A Little Push/ }).click();
+  await page.getByRole("button", { name: /01 One Small Push/ }).click();
   await expect(page.getByLabel("Level name")).toHaveValue("A Little Push");
   await page.keyboard.press("2");
   await page.keyboard.press("9");
@@ -48,7 +48,7 @@ test("number menus, pack4 library and JSON downloads work in the standalone buil
   const downloadPromise = page.waitForEvent("download");
   await page.getByRole("button", { name: "Download level JSON" }).click();
   const download = await downloadPromise;
-  expect(download.suggestedFilename()).toMatch(/^4001-.*\.json$/);
+  expect(download.suggestedFilename()).toMatch(/^4002-.*\.json$/);
   expect(await download.failure()).toBeNull();
   await page.getByRole("button", { name: "Close dialog" }).click();
   await expect(page.getByRole("dialog")).toHaveCount(0);
