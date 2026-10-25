@@ -1,0 +1,531 @@
+{
+  "level": "4003",
+  "name": "Two Quiet Shores",
+  "width": 16,
+  "height": 70,
+  "start": {
+    "row": 0,
+    "col": 9,
+    "direction": 1
+  },
+  "solver": {
+    "status": "optimal",
+    "expanded": 1291,
+    "score": 1510,
+    "turns": 9,
+    "stars": 3,
+    "crashes": 0,
+    "path": [
+      {
+        "row": 0,
+        "col": 9,
+        "direction": 1,
+        "time": 0,
+        "switchMask": 0
+      },
+      {
+        "row": 1,
+        "col": 8,
+        "direction": -1,
+        "time": 8,
+        "switchMask": 0
+      },
+      {
+        "row": 2,
+        "col": 8,
+        "direction": -1,
+        "time": 16,
+        "switchMask": 0
+      },
+      {
+        "row": 3,
+        "col": 7,
+        "direction": -1,
+        "time": 24,
+        "switchMask": 0
+      },
+      {
+        "row": 4,
+        "col": 7,
+        "direction": -1,
+        "time": 32,
+        "switchMask": 0
+      },
+      {
+        "row": 5,
+        "col": 6,
+        "direction": -1,
+        "time": 40,
+        "switchMask": 0
+      },
+      {
+        "row": 6,
+        "col": 7,
+        "direction": 1,
+        "time": 48,
+        "switchMask": 0
+      },
+      {
+        "row": 7,
+        "col": 7,
+        "direction": 1,
+        "time": 56,
+        "switchMask": 0
+      },
+      {
+        "row": 8,
+        "col": 8,
+        "direction": 1,
+        "time": 64,
+        "switchMask": 0
+      },
+      {
+        "row": 9,
+        "col": 8,
+        "direction": 1,
+        "time": 72,
+        "switchMask": 0
+      },
+      {
+        "row": 10,
+        "col": 9,
+        "direction": 1,
+        "time": 80,
+        "switchMask": 0
+      },
+      {
+        "row": 11,
+        "col": 9,
+        "direction": 1,
+        "time": 88,
+        "switchMask": 0
+      },
+      {
+        "row": 12,
+        "col": 10,
+        "direction": 1,
+        "time": 96,
+        "switchMask": 0
+      },
+      {
+        "row": 13,
+        "col": 10,
+        "direction": 1,
+        "time": 104,
+        "switchMask": 1
+      },
+      {
+        "row": 14,
+        "col": 11,
+        "direction": 1,
+        "time": 112,
+        "switchMask": 1
+      },
+      {
+        "row": 15,
+        "col": 11,
+        "direction": 1,
+        "time": 120,
+        "switchMask": 1
+      },
+      {
+        "row": 16,
+        "col": 12,
+        "direction": 1,
+        "time": 128,
+        "switchMask": 1
+      },
+      {
+        "row": 17,
+        "col": 11,
+        "direction": -1,
+        "time": 136,
+        "switchMask": 1
+      },
+      {
+        "row": 18,
+        "col": 11,
+        "direction": -1,
+        "time": 144,
+        "switchMask": 1
+      },
+      {
+        "row": 19,
+        "col": 10,
+        "direction": -1,
+        "time": 152,
+        "switchMask": 1
+      },
+      {
+        "row": 20,
+        "col": 10,
+        "direction": -1,
+        "time": 160,
+        "switchMask": 1
+      },
+      {
+        "row": 21,
+        "col": 9,
+        "direction": -1,
+        "time": 168,
+        "switchMask": 1
+      },
+      {
+        "row": 22,
+        "col": 9,
+        "direction": -1,
+        "time": 176,
+        "switchMask": 1
+      },
+      {
+        "row": 23,
+        "col": 8,
+        "direction": -1,
+        "time": 184,
+        "switchMask": 1
+      },
+      {
+        "row": 24,
+        "col": 8,
+        "direction": -1,
+        "time": 192,
+        "switchMask": 1
+      },
+      {
+        "row": 25,
+        "col": 7,
+        "direction": -1,
+        "time": 200,
+        "switchMask": 1
+      },
+      {
+        "row": 26,
+        "col": 8,
+        "direction": 1,
+        "time": 208,
+        "switchMask": 1
+      },
+      {
+        "row": 27,
+        "col": 8,
+        "direction": 1,
+        "time": 216,
+        "switchMask": 1
+      },
+      {
+        "row": 28,
+        "col": 9,
+        "direction": 1,
+        "time": 224,
+        "switchMask": 1
+      },
+      {
+        "row": 29,
+        "col": 9,
+        "direction": 1,
+        "time": 232,
+        "switchMask": 1
+      },
+      {
+        "row": 30,
+        "col": 10,
+        "direction": 1,
+        "time": 240,
+        "switchMask": 1
+      },
+      {
+        "row": 31,
+        "col": 10,
+        "direction": 1,
+        "time": 248,
+        "switchMask": 1
+      },
+      {
+        "row": 32,
+        "col": 11,
+        "direction": 1,
+        "time": 256,
+        "switchMask": 1
+      },
+      {
+        "row": 33,
+        "col": 11,
+        "direction": 1,
+        "time": 264,
+        "switchMask": 1
+      },
+      {
+        "row": 34,
+        "col": 11,
+        "direction": -1,
+        "time": 272,
+        "switchMask": 1
+      },
+      {
+        "row": 35,
+        "col": 10,
+        "direction": -1,
+        "time": 280,
+        "switchMask": 1
+      },
+      {
+        "row": 36,
+        "col": 10,
+        "direction": -1,
+        "time": 288,
+        "switchMask": 1
+      },
+      {
+        "row": 37,
+        "col": 9,
+        "direction": -1,
+        "time": 296,
+        "switchMask": 1
+      },
+      {
+        "row": 38,
+        "col": 9,
+        "direction": -1,
+        "time": 304,
+        "switchMask": 1
+      },
+      {
+        "row": 39,
+        "col": 8,
+        "direction": -1,
+        "time": 312,
+        "switchMask": 1
+      },
+      {
+        "row": 40,
+        "col": 8,
+        "direction": -1,
+        "time": 320,
+        "switchMask": 1
+      },
+      {
+        "row": 41,
+        "col": 7,
+        "direction": -1,
+        "time": 328,
+        "switchMask": 1
+      },
+      {
+        "row": 42,
+        "col": 7,
+        "direction": -1,
+        "time": 336,
+        "switchMask": 1
+      },
+      {
+        "row": 43,
+        "col": 6,
+        "direction": -1,
+        "time": 344,
+        "switchMask": 1
+      },
+      {
+        "row": 44,
+        "col": 6,
+        "direction": -1,
+        "time": 352,
+        "switchMask": 1
+      },
+      {
+        "row": 45,
+        "col": 5,
+        "direction": -1,
+        "time": 360,
+        "switchMask": 1
+      },
+      {
+        "row": 46,
+        "col": 5,
+        "direction": -1,
+        "time": 368,
+        "switchMask": 3
+      },
+      {
+        "row": 47,
+        "col": 5,
+        "direction": 1,
+        "time": 376,
+        "switchMask": 3
+      },
+      {
+        "row": 48,
+        "col": 6,
+        "direction": 1,
+        "time": 384,
+        "switchMask": 3
+      },
+      {
+        "row": 49,
+        "col": 6,
+        "direction": 1,
+        "time": 392,
+        "switchMask": 3
+      },
+      {
+        "row": 50,
+        "col": 7,
+        "direction": 1,
+        "time": 400,
+        "switchMask": 3
+      },
+      {
+        "row": 51,
+        "col": 7,
+        "direction": 1,
+        "time": 408,
+        "switchMask": 3
+      },
+      {
+        "row": 52,
+        "col": 8,
+        "direction": 1,
+        "time": 416,
+        "switchMask": 3
+      },
+      {
+        "row": 53,
+        "col": 8,
+        "direction": 1,
+        "time": 424,
+        "switchMask": 3
+      },
+      {
+        "row": 54,
+        "col": 9,
+        "direction": 1,
+        "time": 432,
+        "switchMask": 3
+      },
+      {
+        "row": 55,
+        "col": 9,
+        "direction": 1,
+        "time": 440,
+        "switchMask": 3
+      },
+      {
+        "row": 56,
+        "col": 9,
+        "direction": -1,
+        "time": 448,
+        "switchMask": 3
+      },
+      {
+        "row": 57,
+        "col": 8,
+        "direction": -1,
+        "time": 456,
+        "switchMask": 3
+      },
+      {
+        "row": 58,
+        "col": 8,
+        "direction": -1,
+        "time": 464,
+        "switchMask": 3
+      },
+      {
+        "row": 59,
+        "col": 7,
+        "direction": -1,
+        "time": 472,
+        "switchMask": 3
+      },
+      {
+        "row": 60,
+        "col": 8,
+        "direction": 1,
+        "time": 480,
+        "switchMask": 3
+      },
+      {
+        "row": 61,
+        "col": 8,
+        "direction": 1,
+        "time": 488,
+        "switchMask": 3
+      },
+      {
+        "row": 62,
+        "col": 9,
+        "direction": 1,
+        "time": 496,
+        "switchMask": 3
+      },
+      {
+        "row": 63,
+        "col": 8,
+        "direction": -1,
+        "time": 504,
+        "switchMask": 3
+      },
+      {
+        "row": 64,
+        "col": 8,
+        "direction": -1,
+        "time": 512,
+        "switchMask": 3
+      },
+      {
+        "row": 65,
+        "col": 7,
+        "direction": -1,
+        "time": 520,
+        "switchMask": 3
+      },
+      {
+        "row": 66,
+        "col": 7,
+        "direction": -1,
+        "time": 528,
+        "switchMask": 3
+      },
+      {
+        "row": 66,
+        "col": 7,
+        "direction": -1,
+        "time": 536,
+        "switchMask": 3
+      }
+    ]
+  },
+  "replay": {
+    "status": "finished",
+    "stars": 3,
+    "gems": 0,
+    "crashes": 0,
+    "switchMask": 3,
+    "lives": 3
+  },
+  "switchAblations": [
+    {
+      "disabledSwitch": "A",
+      "status": "optimal",
+      "expanded": 1091,
+      "score": 1220,
+      "turns": 7,
+      "stars": 2,
+      "crashes": 0
+    },
+    {
+      "disabledSwitch": "B",
+      "status": "optimal",
+      "expanded": 2038,
+      "score": 1230,
+      "turns": 5,
+      "stars": 2,
+      "crashes": 0
+    }
+  ],
+  "notes": [
+    "Imports real strict typed core importLevel/advanceRun/solve.",
+    "Each lever opens the two local predecessor cells of a star; skipping it leaves a finish route but loses that star.",
+    "No timers, speed modifiers, full-width obstacle walls, gem rails, or cross-map finish bar.",
+    "Pure shared-core evidence only; root owns native device/render/build validation."
+  ]
+}
