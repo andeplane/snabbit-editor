@@ -11,7 +11,7 @@ function repositoryFiles(): Plugin {
     name: "snabbit-repository-files",
     configureServer(server) {
       server.middlewares.use(
-        "/api/story",
+        standalone ? "/snabbit-editor/api/story" : "/api/story",
         repositoryMiddleware(
           fileURLToPath(
             new URL(
@@ -33,6 +33,7 @@ function repositoryFiles(): Plugin {
   };
 }
 export default defineConfig({
+  base: standalone ? "/snabbit-editor/" : "/",
   plugins: [react(), repositoryFiles()],
   server: { host: "127.0.0.1", port: 5173, strictPort: true },
 });
