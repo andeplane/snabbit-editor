@@ -10,6 +10,7 @@ const assets = path.join(editorRoot, "public/assets");
 await mkdir(assets, { recursive: true });
 for (const [src, dest] of [
   ["World/Space", "world"],
+  ["World/Switches", "switches"],
   ["Snabbit", "snabbit"],
   ["Background/backdrop-hd.png", "backdrop.png"],
   ["Levels/data/storyData.txt", "story.json"],

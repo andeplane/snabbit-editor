@@ -123,6 +123,7 @@ export function Canvas({ ports = browserCanvas }: { ports?: CanvasPorts }) {
         current.testPlaying && current.test
           ? Math.min(1, acc / ((FPT[current.test.speed] * 1000) / 60))
           : 1;
+      let view = current;
       if (current.test) {
         const p = gridToPixel(
           current.test.col,
@@ -142,13 +143,14 @@ export function Canvas({ ports = browserCanvas }: { ports?: CanvasPorts }) {
           0,
         );
         const sx = origin + p.x - canvas.clientWidth / current.zoom / 2;
-        current.set({ scrollY: desiredY, scrollX: sx });
+        // Keep per-frame camera interpolation out of React document state.
+        view = { ...current, scrollY: desiredY, scrollX: sx };
       }
       const dpr = ports.pixelRatio();
       ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
       renderGrid(
         ctx,
-        useEditorStore.getState(),
+        view,
         canvas.clientWidth,
         canvas.clientHeight,
         preview.current,

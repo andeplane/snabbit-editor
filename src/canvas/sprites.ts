@@ -14,10 +14,11 @@ export const BLOCK_SPRITES: Record<string, string[]> = {
   ":": ["speedup"],
   ";": ["slowdown"],
   "<": ["mesh00"],
+  "=": ["switch-off", "switch-on"],
 };
 export function spriteURL(name: string) {
   return appURL(
-    `assets/${name.startsWith("snabbit-") ? "snabbit" : "world"}/${name}.png`,
+    `assets/${name.startsWith("switch-") ? "switches" : name.startsWith("snabbit-") ? "snabbit" : "world"}/${name}.png`,
   );
 }
 export interface SpriteLibrary {
@@ -27,6 +28,7 @@ export interface SpriteLibrary {
     char: string,
     row: number,
     col: number,
+    active?: boolean,
   ): HTMLImageElement | null;
   drawImage(
     ctx: DrawContext,
@@ -88,10 +90,18 @@ export function createSpriteLibrary(
       return names.filter((_, i) => !loaded[i]);
     },
     getSprite,
-    getSpriteForBlock(char, row, col) {
+    getSpriteForBlock(char, row, col, active = false) {
       const variants = BLOCK_SPRITES[char];
       return variants
-        ? getSprite(variants[(row * 3 + col * 7) % variants.length])
+        ? getSprite(
+            variants[
+              char === "="
+                ? active
+                  ? 1
+                  : 0
+                : (row * 3 + col * 7) % variants.length
+            ],
+          )
         : null;
     },
     drawImage(ctx, name, x, y, scale = 1) {

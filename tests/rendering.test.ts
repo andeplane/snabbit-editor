@@ -405,18 +405,13 @@ describe("canvas timing, graphics and route contracts", () => {
     expect(d.images[0].alpha).toBe(1);
     expect(d.scale).toHaveBeenCalledWith(0.4, 0.4);
   });
-  it("shows switch plates with default or explicit channels, including a missing source image", () => {
+  it("shows lever sprites with default or explicit channels, including a missing source image", () => {
     const a = assets(),
       normal = drawing(),
       fallback = drawing();
     renderGrid(normal.ctx, state({ 1: "=" }), 640, 400, [], 0, 1, a);
-    expect(normal.arc).toHaveBeenCalledWith(
-      0,
-      1,
-      7,
-      -Math.PI * 0.32,
-      Math.PI * 1.32,
-    );
+    expect(a.getSpriteForBlock).toHaveBeenCalledWith("=", 0, 1, false);
+    expect(normal.drawImage).toHaveBeenCalledWith(a.image, -16, -16, 32, 32);
     expect(normal.fillText.mock.calls.some((call) => call[0] === "A")).toBe(
       true,
     );

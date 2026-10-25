@@ -109,3 +109,11 @@ monorepo editor can still target its sibling native `Resources/` directory.
 
 To run the browser checks locally: `npm run build -- --base=/snabbit-editor/`,
 `npx playwright install chromium`, then `npm run test:browser`.
+
+## Lever artwork
+
+The switch has two readable states: orange leaning left is OFF; lime green
+leaning right is ON. The image changes with the per-run channel mask and resets
+on restart. PNG sources retain high-resolution transparency and render in one
+32-pixel logical board cell. Collectibles disappear when collected; switches and
+speed fields remain visible after crossing.

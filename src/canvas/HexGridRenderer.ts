@@ -99,9 +99,10 @@ export function renderGrid(
           : phaseRemaining <= 4
             ? 1
             : 0.4;
-      // Cells behind the test head have been consumed. Static map is unchanged.
+      // Collectibles disappear after collection. Switches and fields stay visible.
       const consumed =
         s.test &&
+        ["4", "6", "8", "9"].includes(block) &&
         r < s.test.row &&
         s.test.trail.some((p) => p.row === r && p.col === c);
       if (block !== "0" && block !== "5" && !consumed) {
@@ -112,21 +113,20 @@ export function renderGrid(
         if (block === "7") {
           drawGoal(ctx, s.test || s.isPlaying ? clock / 1000 : 0, r, c);
         } else if (block === "=") {
-          const plate = assets.getSpriteForBlock("1", r, c);
-          if (plate) {
-            ctx.globalAlpha = 0.55;
-            ctx.drawImage(plate, -16, -16, 32, 32);
-            ctx.globalAlpha = 1;
+          const channel = s.switches.get(idx) ?? "A";
+          const active = !!(mask & (1 << (channel.charCodeAt(0) - 65)));
+          const lever = assets.getSpriteForBlock("=", r, c, active);
+          if (lever) {
+            // Generated source sprites stay high-resolution; the board footprint
+            // remains exactly one 32px cell in either state.
+            ctx.drawImage(lever, -16, -16, 32, 32);
+          } else {
+            ctx.strokeStyle = active ? "#b8e85a" : "#f69a45";
+            ctx.lineWidth = 2;
+            ctx.beginPath();
+            ctx.arc(0, 1, 7, -Math.PI * 0.32, Math.PI * 1.32);
+            ctx.stroke();
           }
-          ctx.strokeStyle = "#5ee7e2";
-          ctx.lineWidth = 2;
-          ctx.beginPath();
-          ctx.arc(0, 1, 7, -Math.PI * 0.32, Math.PI * 1.32);
-          ctx.stroke();
-          ctx.beginPath();
-          ctx.moveTo(0, -9);
-          ctx.lineTo(0, 0);
-          ctx.stroke();
         } else {
           const sprite = assets.getSpriteForBlock(block, r, c);
           if (sprite) {
@@ -176,7 +176,7 @@ export function renderGrid(
         ctx.fillText(group, x, y + 11 / zoom);
       }
       if (block === "=") {
-        ctx.fillStyle = "#91ddd8";
+        ctx.fillStyle = "#d8dfdf";
         ctx.font = `${8 / zoom}px system-ui`;
         ctx.textAlign = "center";
         ctx.fillText(s.switches.get(idx) ?? "A", x, y + 13 / zoom);
