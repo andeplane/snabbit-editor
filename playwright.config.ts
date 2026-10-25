@@ -9,7 +9,15 @@ export default defineConfig({
     trace: "retain-on-failure",
     screenshot: "only-on-failure",
   },
-  projects: [{ name: "chromium", use: { ...devices["Desktop Chrome"] } }],
+  projects: [
+    {
+      name: "chromium",
+      use: {
+        ...devices["Desktop Chrome"],
+        ...(process.env.CI ? { channel: "chrome" } : {}),
+      },
+    },
+  ],
   webServer: {
     command: "npm run preview -- --host 127.0.0.1 --port 4173",
     url: "http://127.0.0.1:4173/snabbit-editor/",

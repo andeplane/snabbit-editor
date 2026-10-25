@@ -25,7 +25,8 @@ jobs:
       - run: npm run typecheck
       - run: npm run test:coverage
       - run: npm run build -- --base=/snabbit-editor/
-      - run: npx playwright install --with-deps chromium
+      - name: Verify the runner browser
+        run: google-chrome --version
       - run: npm run test:browser
       - name: Upload test evidence
         if: always()

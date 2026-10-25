@@ -96,7 +96,7 @@ downloads. Local browser drafts never overwrite source files automatically.
 
 Pushes to `main` run strict type checking, the complete typed test suite with
 98% minimum coverage for every aggregate metric, and a production build under
-`/snabbit-editor/`. Chromium smoke tests verify images, the A\* worker, animated
+`/snabbit-editor/`. Browser smoke tests use the runner’s preinstalled Chrome and verify images, the A\* worker, animated
 playtest completion, keyboard menus, Pack4 and JSON downloads. Only then does
 the verified build deploy to GitHub Pages. Pull requests run the same checks
 without deploying. Test and coverage reports are retained as Actions artifacts.
