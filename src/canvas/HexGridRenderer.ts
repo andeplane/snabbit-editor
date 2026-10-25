@@ -174,7 +174,7 @@ export function renderGrid(
         }
         ctx.restore();
       }
-      if (group) {
+      if (group && s.showGrid && !s.test) {
         diamond(ctx, x, y, 15);
         ctx.strokeStyle = "#58dbd3";
         ctx.lineWidth = 1 / zoom;
@@ -184,13 +184,13 @@ export function renderGrid(
         ctx.textAlign = "center";
         ctx.fillText(group, x, y + 11 / zoom);
       }
-      if (block === "=") {
+      if (block === "=" && s.showGrid && !s.test) {
         ctx.fillStyle = "#d8dfdf";
         ctx.font = `${8 / zoom}px system-ui`;
         ctx.textAlign = "center";
         ctx.fillText(s.switches.get(idx) ?? "A", x, y + 13 / zoom);
       }
-      if (timer && !s.test) {
+      if (timer && s.showGrid && !s.test) {
         ctx.fillStyle = on ? "#e6bf69" : "#6f7d90";
         ctx.beginPath();
         ctx.arc(x + 10, y - 10, 2 / Math.sqrt(zoom), 0, Math.PI * 2);
