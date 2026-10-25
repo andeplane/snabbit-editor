@@ -8,7 +8,7 @@ const levels=await(await fetch('/pack4-lessons.json')).json();await preloadSprit
 for(const [i,level] of levels.entries()){
 const article=document.createElement('article');const title=document.createElement('h2');title.textContent=`${i+1}. ${level.name}`;article.append(title);const canvas=document.createElement('canvas');article.append(canvas);const p=document.createElement('p');p.textContent=level.lesson.concept;article.append(p);const badge=document.createElement('small');badge.textContent=`${Object.keys(level.switches.data).length} levers · ${Object.keys(level.timers.data).length?'timed gates':'static gates'}`;article.append(badge);document.querySelector('.lessons').append(article);
 const width=canvas.clientWidth,height=400,dpr=devicePixelRatio||1;canvas.width=width*dpr;canvas.height=height*dpr;
-const store=createEditorStore();store.getState().loadLevel(level,'40',false);const state=store.getState(),zoom=Math.min((width-18)/540,(height-24)/(state.height*16+32));
+const store=createEditorStore({storage:{read:()=>null,write:()=>{}},newId:()=>"preview",schedule:()=>0,cancel:()=>{}});store.getState().loadLevel(level,'40',false);const state=store.getState(),zoom=Math.min((width-18)/540,(height-24)/(state.height*16+32));
 const route=solve(importLevel(level),{allowDamage:false});const view={...state,zoom,scrollX:0,scrollY:-(height-(state.height*16+32)*zoom)/(2*zoom),showGrid:false,timingView:'arrival',route};
 const ctx=canvas.getContext('2d');ctx.setTransform(dpr,0,0,dpr,0,0);renderGrid(ctx,view,width,height,[],2000);
 }
