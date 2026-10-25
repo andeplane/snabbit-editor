@@ -102,7 +102,7 @@ describe("scoring-aware A*", () => {
   });
   it("finds and replays the Pack 4 switch fixture with the native score", () => {
     const packs = parseStoryData(readFileSync(storyFile(), "utf8"));
-    const board = importLevel(packs["40"].levels[0]);
+    const board = importLevel(packs["40"].levels.find(level => level._id === "4001")!);
     const result = solve(board, { allowDamage: false });
     expect(result.status).toBe("optimal");
     expect(result.score).toBeGreaterThanOrEqual(1610);

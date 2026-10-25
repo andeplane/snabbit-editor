@@ -1,0 +1,15 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><title>Pack 4 · Five introductory levels</title><style>*{box-sizing:border-box}body{background:#101820;color:#e4efec;margin:0;padding:20px;font:14px system-ui}h1{font-size:24px;margin:0}header p{color:#9eb5b6}.lessons{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}article{min-width:0;background:#192630;border:1px solid #344850;border-radius:10px;padding:10px}h2{font-size:14px;min-height:38px;color:#c7eab2;margin:0}canvas{display:block;width:100%;height:400px;border-radius:5px;margin:8px 0}p{font-size:12px;color:#b2c2c4;line-height:1.4}small{color:#b9ddae}footer{color:#9db5b7;margin-top:15px;font-size:12px}</style><header><h1>A Little Push · five gentle discoveries</h1><p>Original game renderer · frozen arrival states · three stars per lesson · all levers required</p></header><div class="lessons"></div><footer>Upward travel ↑ · 204 typed tests pass · A* proves all five routes · original diagnostic retained as level 6</footer><script type="module">
+import {createEditorStore} from '/src/store/editorStore.ts';
+import {renderGrid} from '/src/canvas/HexGridRenderer.ts';
+import {preloadSprites} from '/src/canvas/sprites.ts';
+import {importLevel} from '/src/core/serialization.ts';
+import {solve} from '/src/core/solver.ts';
+const levels=await(await fetch('/pack4-lessons.json')).json();await preloadSprites();
+for(const [i,level] of levels.entries()){
+const article=document.createElement('article');const title=document.createElement('h2');title.textContent=`${i+1}. ${level.name}`;article.append(title);const canvas=document.createElement('canvas');article.append(canvas);const p=document.createElement('p');p.textContent=level.lesson.concept;article.append(p);const badge=document.createElement('small');badge.textContent=`${Object.keys(level.switches.data).length} levers · ${Object.keys(level.timers.data).length?'timed gates':'static gates'}`;article.append(badge);document.querySelector('.lessons').append(article);
+const width=canvas.clientWidth,height=400,dpr=devicePixelRatio||1;canvas.width=width*dpr;canvas.height=height*dpr;
+const store=createEditorStore();store.getState().loadLevel(level,'40',false);const state=store.getState(),zoom=Math.min((width-18)/540,(height-24)/(state.height*16+32));
+const route=solve(importLevel(level),{allowDamage:false});const view={...state,zoom,scrollX:0,scrollY:-(height-(state.height*16+32)*zoom)/(2*zoom),showGrid:false,timingView:'arrival',route};
+const ctx=canvas.getContext('2d');ctx.setTransform(dpr,0,0,dpr,0,0);renderGrid(ctx,view,width,height,[],2000);
+}
+</script></html>
