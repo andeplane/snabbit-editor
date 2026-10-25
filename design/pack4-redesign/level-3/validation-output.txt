@@ -1,0 +1,165 @@
+{
+  "sourceHashes": {
+    "level.json": "7ac6e0dd55490e231c6d56b4b747cb5cf7da8aee6d3fa79c5014aa9cfbbfafe5",
+    "../../../src/core/serialization.ts": "c2f0d221942bc359faeff238df9c801ef1b812008cc4c50ce11029416096237b",
+    "../../../src/core/simulation.ts": "bf223d3d4db3a125b3861803ccc729cdec4884456ba201b9349b233001a52383",
+    "../../../src/core/solver.ts": "d8d8a18f189988457daf055908079c9dd8594f4e221d85d578bc6e0da494d1f1",
+    "../../../src/core/timer.ts": "66b26e898142c2781b3707c963c4cbfdc6c97e3ca1f6de6076b2f424d0697986"
+  },
+  "id": "4004",
+  "name": "Breathing Cove",
+  "dimensions": [
+    16,
+    74
+  ],
+  "conceptSource": "concept.png (unchanged built-in image generation output)",
+  "referenceLevels": [
+    "168",
+    "205",
+    "138",
+    "214",
+    "141",
+    "163",
+    "236",
+    "238",
+    "240"
+  ],
+  "result": {
+    "status": "optimal",
+    "expanded": 2024,
+    "score": 1490,
+    "turns": 15,
+    "stars": 3,
+    "crashes": 0
+  },
+  "replay": {
+    "status": "finished",
+    "stars": 3,
+    "crashes": 0,
+    "lives": 3,
+    "score": 1490,
+    "time": 544,
+    "turns": 15
+  },
+  "events": [
+    {
+      "row": 10,
+      "col": 10,
+      "time": 80,
+      "stars": 0,
+      "maskBefore": 0,
+      "maskAfter": 1
+    },
+    {
+      "row": 17,
+      "col": 12,
+      "time": 136,
+      "stars": 1,
+      "maskBefore": 1,
+      "maskAfter": 1
+    },
+    {
+      "row": 33,
+      "col": 5,
+      "time": 264,
+      "stars": 1,
+      "maskBefore": 1,
+      "maskAfter": 3
+    },
+    {
+      "row": 38,
+      "col": 5,
+      "time": 304,
+      "stars": 2,
+      "maskBefore": 3,
+      "maskAfter": 3
+    },
+    {
+      "row": 61,
+      "col": 9,
+      "time": 488,
+      "stars": 3,
+      "maskBefore": 3,
+      "maskAfter": 3
+    }
+  ],
+  "gateArrivals": [
+    {
+      "row": 12,
+      "col": 10,
+      "channel": "A",
+      "timerStateAtNativeArrival": true,
+      "closedWithoutSwitch": true,
+      "openWithSwitch": true
+    },
+    {
+      "row": 13,
+      "col": 10,
+      "channel": "A",
+      "timerStateAtNativeArrival": true,
+      "closedWithoutSwitch": true,
+      "openWithSwitch": true
+    },
+    {
+      "row": 34,
+      "col": 5,
+      "channel": "B",
+      "timerStateAtNativeArrival": true,
+      "closedWithoutSwitch": true,
+      "openWithSwitch": true
+    },
+    {
+      "row": 35,
+      "col": 4,
+      "channel": "B",
+      "timerStateAtNativeArrival": true,
+      "closedWithoutSwitch": true,
+      "openWithSwitch": true
+    }
+  ],
+  "gateCrossings": [
+    {
+      "row": 12,
+      "col": 10,
+      "direction": -1,
+      "time": 96,
+      "switchMask": 1,
+      "channel": "A",
+      "effectiveHP": 0
+    },
+    {
+      "row": 13,
+      "col": 10,
+      "direction": 1,
+      "time": 104,
+      "switchMask": 1,
+      "channel": "A",
+      "effectiveHP": 0
+    },
+    {
+      "row": 34,
+      "col": 5,
+      "direction": -1,
+      "time": 272,
+      "switchMask": 3,
+      "channel": "B",
+      "effectiveHP": 0
+    },
+    {
+      "row": 35,
+      "col": 4,
+      "direction": -1,
+      "time": 280,
+      "switchMask": 3,
+      "channel": "B",
+      "effectiveHP": 0
+    }
+  ],
+  "counts": {
+    "obstacles": 149,
+    "timers": 9,
+    "switches": 2,
+    "gates": 4,
+    "gems": 7
+  }
+}
