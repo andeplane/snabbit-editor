@@ -1,0 +1,26 @@
+{
+  "shortcut": "LLLLLLRRRRRRRRLLLLLLLLRRRRLLLLRR",
+  "safe": "LLLLLLLLLRLLRLRRLRRLRRRRRRLLLLRR",
+  "fork": [
+    6,
+    6
+  ],
+  "merge": [
+    22,
+    6
+  ],
+  "dirt": [
+    [
+      12,
+      9
+    ],
+    [
+      13,
+      9
+    ],
+    [
+      14,
+      10
+    ]
+  ]
+}

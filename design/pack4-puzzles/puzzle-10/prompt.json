@@ -1,0 +1,10 @@
+{
+  "prompt": "Use case: stylized-concept\nAsset type: Snabbit native vertical puzzle level visual concept, whole map visible.\nPrimary request: Spend a Heart, Save Turns. Compose one beautiful short asymmetric chipped crescent asteroid on a deep navy space board. Upward-travelling snake starts bottom center. A visible heart in the lower hollow funds a straight short brown-dirt passage through the crescent's middle; the alternative safe route curves repeatedly through an irregular airy opening around the crescent. Both reunite for the same three yellow stars and a glittering finish above. The choice should look like a sculpted asteroid with varied hollows, never a regular maze.\nInput images: image 1 is a reference of the original game's level composition; image 2 is a reference of original sprites. Use precisely that old game's faceted white metal boulders, brown dirt, tiny cyan gems and yellow stars. Heart is a simple small pink game pickup.\nComposition: portrait full map, on a staggered 16-column upward hexagonal grid, roughly 36 rows; lower open approach, one dramatic crescent mass center-left, airy top reward pocket; curved safe opening alternates gently around brown shortcut at four irregular elevations. Three stars visible as shared rewards, sparse blue gems before the shortcut for score opportunity, one heart clearly before brown obstacles. No HUD, no text, no arrows, no labels, no route traces, no debug colors. Preserve native sprite scale and large navy negative space. Avoid full-width wall strips, repeated chambers, constant gem rails, regular zigzags, illustrated space scenery.",
+  "referenced_image_paths": [
+    "/Users/anderhaf/repos/snabbit-editor/design/pack4-redesign/references/pack1-openings.png",
+    "/Users/anderhaf/repos/snabbit-editor/design/pack4-redesign/level-1/source-sprites.png"
+  ],
+  "sourcePath": "/Users/anderhaf/.codex/generated_images/01a1759b-5d88-78c3-82dd-0dabdc34f8ff/exec-7963eff1-36e2-4613-9ea8-8caaa1786d4c.png",
+  "tool": "built-in image_gen",
+  "conceptPreservedUnchanged": true
+}
