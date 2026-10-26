@@ -1,0 +1,15 @@
+{
+  "order": "ImageGen concept created before level JSON authoring",
+  "tool": "built-in image_gen",
+  "mode": "reference-based generation",
+  "transparent_background": false,
+  "prompt": "Use case: stylized-concept. Asset: visual composition of ONE Snabbit level called One Lever Only, to be translated into the native staggered diamond grid afterwards. Inputs1–3 show actual original pack opening maps; input4 shows original block sprites and switches; input5 is the selected chunky lever sprite. Match this exact game artwork, scale and top-down viewpoint. Draw a tall narrow full-level map, upward travel from bottom to top, on dark empty space. One organic asymmetric asteroid mass with chipped crescent edges and irregular hollows contains a winding central passage. Three DIFFERENT small side bays appear successively along that passage: a lower-left shallow bay with one orange lever and ONE red heart; a middle-right deeper sculpted pocket with one orange lever and THREE red hearts clearly grouped; an upper-left narrow spur with one orange lever and an optional white diamond but NO hearts. Each bay mouth has a small pair of faded small white metal gate blocks, initially passable. Selection of any lever will solidify the later bay mouths, so only one can be chosen. Show all levers OFF in this concept. Beyond the bays the passages merge toward a compact exit opening, followed by one short diagonal brown-dirt shaft FIVE blocks deep that requires enough health to cross, then three golden stars spaced through a roomy upper crescent and a tiny warm-gold finish sparkle. Visual resource puzzle: the middle heart-rich bay is the worthwhile commitment. Make the white-metal asteroid read as a sculpted branching crescent, with a broad heart-shaped hollow at right and smaller jagged hollows at left. Airy negative space and distinct pocket silhouettes; no repeated full-width wall strips, no identical boxes, no regular zigzag ribbon, no endless gem rail. Use only sparse cyan gem clusters as accents, no invented colored wall outlines, channel labels, text, numbers, arrows or debug markings inside the level. Do not draw an editor UI or a character closeup. A small full-body yellow Snabbit may mark the bottom start. The actual playable map will be roughly16columns by48 staggered rows, so use chunky sprites and modest authored density, about500whiteblocks maximum rather than thousands. One finished level concept, not a multi-panel sheet.",
+  "references": [
+    "/Users/anderhaf/repos/snabbit-editor/design/pack4-redesign/references/pack1-openings.png",
+    "/Users/anderhaf/repos/snabbit-editor/design/pack4-redesign/references/pack2-openings.png",
+    "/Users/anderhaf/repos/snabbit-editor/design/pack4-redesign/references/pack3-openings.png",
+    "/Users/anderhaf/repos/snabbit-editor/design/pack4-redesign/level-1/source-sprites.png",
+    "/Users/anderhaf/repos/snabbit/Resources/World/Switches/switch-off.png"
+  ],
+  "generatedSource": "/Users/anderhaf/.codex/generated_images/01a17463-3d0e-7643-a1f3-1da9a3d31e0b/exec-e09d5b98-8384-4675-bd3a-5f801f8f3101.png"
+}
