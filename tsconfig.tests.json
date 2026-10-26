@@ -15,6 +15,7 @@
     "server",
     "vitest.config.ts",
     "browser-tests",
-    "playwright.config.ts"
+    "playwright.config.ts",
+    "design/pack4-puzzles/**/validation.ts"
   ]
 }
