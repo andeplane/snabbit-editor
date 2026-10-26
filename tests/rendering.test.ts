@@ -430,6 +430,21 @@ describe("canvas timing, graphics and route contracts", () => {
     );
     expect(fallback.images).toHaveLength(0);
   });
+  it("keeps channel markers only in editor grid debugging, never in playtest", () => {
+    const base = state({ 1: "=", 5: "3" }, {
+      switches: new Map([[1, "A"]]), gates: new Map([[5, "H"]]), showGrid: true,
+    });
+    const debug = drawing();
+    renderGrid(debug.ctx, base, 640, 400, [], 0, 1, assets());
+    expect(debug.fillText.mock.calls.some(call => call[0] === "A")).toBe(true);
+    expect(debug.fillText.mock.calls.some(call => call[0] === "H")).toBe(true);
+    for(const preview of [{...base,showGrid:false},{...base,test:startRun(base)}]) {
+      const clean = drawing();
+      renderGrid(clean.ctx, preview, 640, 400, [], 0, 1, assets());
+      expect(clean.fillText.mock.calls.some(call => call[0] === "A" || call[0] === "H")).toBe(false);
+      expect(clean.images.length).toBeGreaterThan(0);
+    }
+  });
   it("uses route-specific switch state in arrival view and current run state in playtest", () => {
     const gates = new Map([[5, "H"]]),
       preview = drawing(),

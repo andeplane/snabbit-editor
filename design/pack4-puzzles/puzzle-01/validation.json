@@ -1,0 +1,1071 @@
+{
+  "id": "4007",
+  "name": "Three Switches, One Door",
+  "width": 16,
+  "height": 56,
+  "authoredRoute": {
+    "waypoints": [
+      [
+        10,
+        9
+      ],
+      [
+        15,
+        8
+      ],
+      [
+        24,
+        5
+      ],
+      [
+        38,
+        9
+      ],
+      [
+        41,
+        9
+      ],
+      [
+        48,
+        9
+      ],
+      [
+        50,
+        9
+      ]
+    ],
+    "status": "reachable",
+    "expanded": 236,
+    "states": 239,
+    "constructionReplayFinal": {
+      "status": "finished",
+      "stars": 3,
+      "crashes": 0
+    },
+    "final": {
+      "status": "finished",
+      "stars": 3,
+      "lives": 3,
+      "score": 1350,
+      "time": 408,
+      "crashes": 0,
+      "turns": 8,
+      "gems": 0,
+      "switchMask": 1
+    },
+    "switchEvents": [
+      {
+        "leavingRow": 10,
+        "leavingCol": 9,
+        "arrivalRow": 11,
+        "time": 88,
+        "before": 0,
+        "after": 1,
+        "finalDoorOpen": true
+      },
+      {
+        "leavingRow": 24,
+        "leavingCol": 5,
+        "arrivalRow": 25,
+        "time": 200,
+        "before": 1,
+        "after": 0,
+        "finalDoorOpen": false
+      },
+      {
+        "leavingRow": 38,
+        "leavingCol": 9,
+        "arrivalRow": 39,
+        "time": 312,
+        "before": 0,
+        "after": 1,
+        "finalDoorOpen": true
+      }
+    ],
+    "path": [
+      {
+        "row": 0,
+        "col": 9,
+        "direction": 1,
+        "time": 0,
+        "stars": 0,
+        "lives": 3,
+        "score": 0,
+        "crashes": 0,
+        "switchMask": 0
+      },
+      {
+        "row": 1,
+        "col": 9,
+        "direction": 1,
+        "time": 8,
+        "stars": 0,
+        "lives": 3,
+        "score": 0,
+        "crashes": 0,
+        "switchMask": 0
+      },
+      {
+        "row": 2,
+        "col": 10,
+        "direction": 1,
+        "time": 16,
+        "stars": 0,
+        "lives": 3,
+        "score": 10,
+        "crashes": 0,
+        "switchMask": 0
+      },
+      {
+        "row": 3,
+        "col": 10,
+        "direction": 1,
+        "time": 24,
+        "stars": 0,
+        "lives": 3,
+        "score": 20,
+        "crashes": 0,
+        "switchMask": 0
+      },
+      {
+        "row": 4,
+        "col": 11,
+        "direction": 1,
+        "time": 32,
+        "stars": 0,
+        "lives": 3,
+        "score": 30,
+        "crashes": 0,
+        "switchMask": 0
+      },
+      {
+        "row": 5,
+        "col": 11,
+        "direction": 1,
+        "time": 40,
+        "stars": 0,
+        "lives": 3,
+        "score": 40,
+        "crashes": 0,
+        "switchMask": 0
+      },
+      {
+        "row": 6,
+        "col": 11,
+        "direction": -1,
+        "time": 48,
+        "stars": 0,
+        "lives": 3,
+        "score": 45,
+        "crashes": 0,
+        "switchMask": 0
+      },
+      {
+        "row": 7,
+        "col": 10,
+        "direction": -1,
+        "time": 56,
+        "stars": 0,
+        "lives": 3,
+        "score": 55,
+        "crashes": 0,
+        "switchMask": 0
+      },
+      {
+        "row": 8,
+        "col": 10,
+        "direction": -1,
+        "time": 64,
+        "stars": 0,
+        "lives": 3,
+        "score": 65,
+        "crashes": 0,
+        "switchMask": 0
+      },
+      {
+        "row": 9,
+        "col": 9,
+        "direction": -1,
+        "time": 72,
+        "stars": 0,
+        "lives": 3,
+        "score": 75,
+        "crashes": 0,
+        "switchMask": 0
+      },
+      {
+        "row": 10,
+        "col": 9,
+        "direction": -1,
+        "time": 80,
+        "stars": 0,
+        "lives": 3,
+        "score": 85,
+        "crashes": 0,
+        "switchMask": 0
+      },
+      {
+        "row": 11,
+        "col": 8,
+        "direction": -1,
+        "time": 88,
+        "stars": 0,
+        "lives": 3,
+        "score": 95,
+        "crashes": 0,
+        "switchMask": 1
+      },
+      {
+        "row": 12,
+        "col": 8,
+        "direction": -1,
+        "time": 96,
+        "stars": 0,
+        "lives": 3,
+        "score": 105,
+        "crashes": 0,
+        "switchMask": 1
+      },
+      {
+        "row": 13,
+        "col": 7,
+        "direction": -1,
+        "time": 104,
+        "stars": 0,
+        "lives": 3,
+        "score": 115,
+        "crashes": 0,
+        "switchMask": 1
+      },
+      {
+        "row": 14,
+        "col": 8,
+        "direction": 1,
+        "time": 112,
+        "stars": 0,
+        "lives": 3,
+        "score": 120,
+        "crashes": 0,
+        "switchMask": 1
+      },
+      {
+        "row": 15,
+        "col": 8,
+        "direction": 1,
+        "time": 120,
+        "stars": 0,
+        "lives": 3,
+        "score": 130,
+        "crashes": 0,
+        "switchMask": 1
+      },
+      {
+        "row": 16,
+        "col": 8,
+        "direction": -1,
+        "time": 128,
+        "stars": 1,
+        "lives": 3,
+        "score": 435,
+        "crashes": 0,
+        "switchMask": 1
+      },
+      {
+        "row": 17,
+        "col": 7,
+        "direction": -1,
+        "time": 136,
+        "stars": 1,
+        "lives": 3,
+        "score": 445,
+        "crashes": 0,
+        "switchMask": 1
+      },
+      {
+        "row": 18,
+        "col": 7,
+        "direction": -1,
+        "time": 144,
+        "stars": 1,
+        "lives": 3,
+        "score": 455,
+        "crashes": 0,
+        "switchMask": 1
+      },
+      {
+        "row": 19,
+        "col": 6,
+        "direction": -1,
+        "time": 152,
+        "stars": 1,
+        "lives": 3,
+        "score": 465,
+        "crashes": 0,
+        "switchMask": 1
+      },
+      {
+        "row": 20,
+        "col": 6,
+        "direction": -1,
+        "time": 160,
+        "stars": 1,
+        "lives": 3,
+        "score": 475,
+        "crashes": 0,
+        "switchMask": 1
+      },
+      {
+        "row": 21,
+        "col": 5,
+        "direction": -1,
+        "time": 168,
+        "stars": 1,
+        "lives": 3,
+        "score": 485,
+        "crashes": 0,
+        "switchMask": 1
+      },
+      {
+        "row": 22,
+        "col": 5,
+        "direction": -1,
+        "time": 176,
+        "stars": 1,
+        "lives": 3,
+        "score": 495,
+        "crashes": 0,
+        "switchMask": 1
+      },
+      {
+        "row": 23,
+        "col": 4,
+        "direction": -1,
+        "time": 184,
+        "stars": 1,
+        "lives": 3,
+        "score": 505,
+        "crashes": 0,
+        "switchMask": 1
+      },
+      {
+        "row": 24,
+        "col": 5,
+        "direction": 1,
+        "time": 192,
+        "stars": 1,
+        "lives": 3,
+        "score": 510,
+        "crashes": 0,
+        "switchMask": 1
+      },
+      {
+        "row": 25,
+        "col": 5,
+        "direction": 1,
+        "time": 200,
+        "stars": 1,
+        "lives": 3,
+        "score": 520,
+        "crashes": 0,
+        "switchMask": 0
+      },
+      {
+        "row": 26,
+        "col": 6,
+        "direction": 1,
+        "time": 208,
+        "stars": 1,
+        "lives": 3,
+        "score": 530,
+        "crashes": 0,
+        "switchMask": 0
+      },
+      {
+        "row": 27,
+        "col": 6,
+        "direction": 1,
+        "time": 216,
+        "stars": 1,
+        "lives": 3,
+        "score": 540,
+        "crashes": 0,
+        "switchMask": 0
+      },
+      {
+        "row": 28,
+        "col": 7,
+        "direction": 1,
+        "time": 224,
+        "stars": 1,
+        "lives": 3,
+        "score": 550,
+        "crashes": 0,
+        "switchMask": 0
+      },
+      {
+        "row": 29,
+        "col": 7,
+        "direction": 1,
+        "time": 232,
+        "stars": 1,
+        "lives": 3,
+        "score": 560,
+        "crashes": 0,
+        "switchMask": 0
+      },
+      {
+        "row": 30,
+        "col": 8,
+        "direction": 1,
+        "time": 240,
+        "stars": 1,
+        "lives": 3,
+        "score": 570,
+        "crashes": 0,
+        "switchMask": 0
+      },
+      {
+        "row": 31,
+        "col": 8,
+        "direction": 1,
+        "time": 248,
+        "stars": 1,
+        "lives": 3,
+        "score": 580,
+        "crashes": 0,
+        "switchMask": 0
+      },
+      {
+        "row": 32,
+        "col": 9,
+        "direction": 1,
+        "time": 256,
+        "stars": 1,
+        "lives": 3,
+        "score": 590,
+        "crashes": 0,
+        "switchMask": 0
+      },
+      {
+        "row": 33,
+        "col": 9,
+        "direction": 1,
+        "time": 264,
+        "stars": 1,
+        "lives": 3,
+        "score": 600,
+        "crashes": 0,
+        "switchMask": 0
+      },
+      {
+        "row": 34,
+        "col": 10,
+        "direction": 1,
+        "time": 272,
+        "stars": 1,
+        "lives": 3,
+        "score": 610,
+        "crashes": 0,
+        "switchMask": 0
+      },
+      {
+        "row": 35,
+        "col": 10,
+        "direction": 1,
+        "time": 280,
+        "stars": 1,
+        "lives": 3,
+        "score": 620,
+        "crashes": 0,
+        "switchMask": 0
+      },
+      {
+        "row": 36,
+        "col": 10,
+        "direction": -1,
+        "time": 288,
+        "stars": 1,
+        "lives": 3,
+        "score": 625,
+        "crashes": 0,
+        "switchMask": 0
+      },
+      {
+        "row": 37,
+        "col": 9,
+        "direction": -1,
+        "time": 296,
+        "stars": 1,
+        "lives": 3,
+        "score": 635,
+        "crashes": 0,
+        "switchMask": 0
+      },
+      {
+        "row": 38,
+        "col": 9,
+        "direction": -1,
+        "time": 304,
+        "stars": 1,
+        "lives": 3,
+        "score": 645,
+        "crashes": 0,
+        "switchMask": 0
+      },
+      {
+        "row": 39,
+        "col": 8,
+        "direction": -1,
+        "time": 312,
+        "stars": 1,
+        "lives": 3,
+        "score": 655,
+        "crashes": 0,
+        "switchMask": 1
+      },
+      {
+        "row": 40,
+        "col": 9,
+        "direction": 1,
+        "time": 320,
+        "stars": 1,
+        "lives": 3,
+        "score": 660,
+        "crashes": 0,
+        "switchMask": 1
+      },
+      {
+        "row": 41,
+        "col": 9,
+        "direction": 1,
+        "time": 328,
+        "stars": 1,
+        "lives": 3,
+        "score": 670,
+        "crashes": 0,
+        "switchMask": 1
+      },
+      {
+        "row": 42,
+        "col": 10,
+        "direction": 1,
+        "time": 336,
+        "stars": 2,
+        "lives": 3,
+        "score": 980,
+        "crashes": 0,
+        "switchMask": 1
+      },
+      {
+        "row": 43,
+        "col": 9,
+        "direction": -1,
+        "time": 344,
+        "stars": 2,
+        "lives": 3,
+        "score": 985,
+        "crashes": 0,
+        "switchMask": 1
+      },
+      {
+        "row": 44,
+        "col": 9,
+        "direction": -1,
+        "time": 352,
+        "stars": 2,
+        "lives": 3,
+        "score": 995,
+        "crashes": 0,
+        "switchMask": 1
+      },
+      {
+        "row": 45,
+        "col": 8,
+        "direction": -1,
+        "time": 360,
+        "stars": 2,
+        "lives": 3,
+        "score": 1005,
+        "crashes": 0,
+        "switchMask": 1
+      },
+      {
+        "row": 46,
+        "col": 8,
+        "direction": -1,
+        "time": 368,
+        "stars": 2,
+        "lives": 3,
+        "score": 1015,
+        "crashes": 0,
+        "switchMask": 1
+      },
+      {
+        "row": 47,
+        "col": 8,
+        "direction": 1,
+        "time": 376,
+        "stars": 2,
+        "lives": 3,
+        "score": 1020,
+        "crashes": 0,
+        "switchMask": 1
+      },
+      {
+        "row": 48,
+        "col": 9,
+        "direction": 1,
+        "time": 384,
+        "stars": 2,
+        "lives": 3,
+        "score": 1030,
+        "crashes": 0,
+        "switchMask": 1
+      },
+      {
+        "row": 49,
+        "col": 9,
+        "direction": 1,
+        "time": 392,
+        "stars": 3,
+        "lives": 3,
+        "score": 1340,
+        "crashes": 0,
+        "switchMask": 1
+      },
+      {
+        "row": 50,
+        "col": 10,
+        "direction": 1,
+        "time": 400,
+        "stars": 3,
+        "lives": 3,
+        "score": 1350,
+        "crashes": 0,
+        "switchMask": 1
+      },
+      {
+        "row": 50,
+        "col": 10,
+        "direction": 1,
+        "time": 408,
+        "stars": 3,
+        "lives": 3,
+        "score": 1350,
+        "crashes": 0,
+        "switchMask": 1
+      }
+    ]
+  },
+  "solver": {
+    "status": "optimal",
+    "expanded": 425,
+    "score": 1350,
+    "turns": 8,
+    "stars": 3,
+    "crashes": 0,
+    "path": [
+      {
+        "row": 0,
+        "col": 9,
+        "direction": 1,
+        "time": 0,
+        "switchMask": 0
+      },
+      {
+        "row": 1,
+        "col": 9,
+        "direction": 1,
+        "time": 8,
+        "switchMask": 0
+      },
+      {
+        "row": 2,
+        "col": 10,
+        "direction": 1,
+        "time": 16,
+        "switchMask": 0
+      },
+      {
+        "row": 3,
+        "col": 10,
+        "direction": 1,
+        "time": 24,
+        "switchMask": 0
+      },
+      {
+        "row": 4,
+        "col": 11,
+        "direction": 1,
+        "time": 32,
+        "switchMask": 0
+      },
+      {
+        "row": 5,
+        "col": 11,
+        "direction": 1,
+        "time": 40,
+        "switchMask": 0
+      },
+      {
+        "row": 6,
+        "col": 11,
+        "direction": -1,
+        "time": 48,
+        "switchMask": 0
+      },
+      {
+        "row": 7,
+        "col": 10,
+        "direction": -1,
+        "time": 56,
+        "switchMask": 0
+      },
+      {
+        "row": 8,
+        "col": 10,
+        "direction": -1,
+        "time": 64,
+        "switchMask": 0
+      },
+      {
+        "row": 9,
+        "col": 9,
+        "direction": -1,
+        "time": 72,
+        "switchMask": 0
+      },
+      {
+        "row": 10,
+        "col": 9,
+        "direction": -1,
+        "time": 80,
+        "switchMask": 0
+      },
+      {
+        "row": 11,
+        "col": 8,
+        "direction": -1,
+        "time": 88,
+        "switchMask": 1
+      },
+      {
+        "row": 12,
+        "col": 8,
+        "direction": -1,
+        "time": 96,
+        "switchMask": 1
+      },
+      {
+        "row": 13,
+        "col": 7,
+        "direction": -1,
+        "time": 104,
+        "switchMask": 1
+      },
+      {
+        "row": 14,
+        "col": 8,
+        "direction": 1,
+        "time": 112,
+        "switchMask": 1
+      },
+      {
+        "row": 15,
+        "col": 8,
+        "direction": 1,
+        "time": 120,
+        "switchMask": 1
+      },
+      {
+        "row": 16,
+        "col": 8,
+        "direction": -1,
+        "time": 128,
+        "switchMask": 1
+      },
+      {
+        "row": 17,
+        "col": 7,
+        "direction": -1,
+        "time": 136,
+        "switchMask": 1
+      },
+      {
+        "row": 18,
+        "col": 7,
+        "direction": -1,
+        "time": 144,
+        "switchMask": 1
+      },
+      {
+        "row": 19,
+        "col": 6,
+        "direction": -1,
+        "time": 152,
+        "switchMask": 1
+      },
+      {
+        "row": 20,
+        "col": 6,
+        "direction": -1,
+        "time": 160,
+        "switchMask": 1
+      },
+      {
+        "row": 21,
+        "col": 5,
+        "direction": -1,
+        "time": 168,
+        "switchMask": 1
+      },
+      {
+        "row": 22,
+        "col": 5,
+        "direction": -1,
+        "time": 176,
+        "switchMask": 1
+      },
+      {
+        "row": 23,
+        "col": 4,
+        "direction": -1,
+        "time": 184,
+        "switchMask": 1
+      },
+      {
+        "row": 24,
+        "col": 5,
+        "direction": 1,
+        "time": 192,
+        "switchMask": 1
+      },
+      {
+        "row": 25,
+        "col": 5,
+        "direction": 1,
+        "time": 200,
+        "switchMask": 0
+      },
+      {
+        "row": 26,
+        "col": 6,
+        "direction": 1,
+        "time": 208,
+        "switchMask": 0
+      },
+      {
+        "row": 27,
+        "col": 6,
+        "direction": 1,
+        "time": 216,
+        "switchMask": 0
+      },
+      {
+        "row": 28,
+        "col": 7,
+        "direction": 1,
+        "time": 224,
+        "switchMask": 0
+      },
+      {
+        "row": 29,
+        "col": 7,
+        "direction": 1,
+        "time": 232,
+        "switchMask": 0
+      },
+      {
+        "row": 30,
+        "col": 8,
+        "direction": 1,
+        "time": 240,
+        "switchMask": 0
+      },
+      {
+        "row": 31,
+        "col": 8,
+        "direction": 1,
+        "time": 248,
+        "switchMask": 0
+      },
+      {
+        "row": 32,
+        "col": 9,
+        "direction": 1,
+        "time": 256,
+        "switchMask": 0
+      },
+      {
+        "row": 33,
+        "col": 9,
+        "direction": 1,
+        "time": 264,
+        "switchMask": 0
+      },
+      {
+        "row": 34,
+        "col": 10,
+        "direction": 1,
+        "time": 272,
+        "switchMask": 0
+      },
+      {
+        "row": 35,
+        "col": 10,
+        "direction": 1,
+        "time": 280,
+        "switchMask": 0
+      },
+      {
+        "row": 36,
+        "col": 10,
+        "direction": -1,
+        "time": 288,
+        "switchMask": 0
+      },
+      {
+        "row": 37,
+        "col": 9,
+        "direction": -1,
+        "time": 296,
+        "switchMask": 0
+      },
+      {
+        "row": 38,
+        "col": 9,
+        "direction": -1,
+        "time": 304,
+        "switchMask": 0
+      },
+      {
+        "row": 39,
+        "col": 8,
+        "direction": -1,
+        "time": 312,
+        "switchMask": 1
+      },
+      {
+        "row": 40,
+        "col": 9,
+        "direction": 1,
+        "time": 320,
+        "switchMask": 1
+      },
+      {
+        "row": 41,
+        "col": 9,
+        "direction": 1,
+        "time": 328,
+        "switchMask": 1
+      },
+      {
+        "row": 42,
+        "col": 10,
+        "direction": 1,
+        "time": 336,
+        "switchMask": 1
+      },
+      {
+        "row": 43,
+        "col": 9,
+        "direction": -1,
+        "time": 344,
+        "switchMask": 1
+      },
+      {
+        "row": 44,
+        "col": 9,
+        "direction": -1,
+        "time": 352,
+        "switchMask": 1
+      },
+      {
+        "row": 45,
+        "col": 8,
+        "direction": -1,
+        "time": 360,
+        "switchMask": 1
+      },
+      {
+        "row": 46,
+        "col": 8,
+        "direction": -1,
+        "time": 368,
+        "switchMask": 1
+      },
+      {
+        "row": 47,
+        "col": 8,
+        "direction": 1,
+        "time": 376,
+        "switchMask": 1
+      },
+      {
+        "row": 48,
+        "col": 9,
+        "direction": 1,
+        "time": 384,
+        "switchMask": 1
+      },
+      {
+        "row": 49,
+        "col": 9,
+        "direction": 1,
+        "time": 392,
+        "switchMask": 1
+      },
+      {
+        "row": 50,
+        "col": 10,
+        "direction": 1,
+        "time": 400,
+        "switchMask": 1
+      },
+      {
+        "row": 50,
+        "col": 10,
+        "direction": 1,
+        "time": 408,
+        "switchMask": 1
+      }
+    ]
+  },
+  "proof": {
+    "skipMiddle": {
+      "status": "unreachable",
+      "expanded": 340,
+      "states": 340
+    },
+    "skipFirst": {
+      "status": "unreachable",
+      "expanded": 47,
+      "states": 47
+    },
+    "skipLast": {
+      "status": "unreachable",
+      "expanded": 379,
+      "states": 379
+    },
+    "removeMiddleToggle": {
+      "status": "unreachable",
+      "expanded": 344,
+      "states": 344
+    },
+    "wrongReplayFirstCollision": {
+      "row": 43,
+      "col": 9,
+      "time": 352,
+      "lives": 3,
+      "switchMask": 0,
+      "gateHP": 200
+    },
+    "skipMiddleWithDoorRemoved": {
+      "status": "reachable",
+      "expanded": 377,
+      "states": 382
+    },
+    "parity": "0 → first 1 → middle 0 → last 1 opens door; skip middle gives 0 → 1 → 0 closed",
+    "scope": "Complete no-damage reachability enumeration to explicit native finish; static metal boundaries also prohibit survivable damage bypass (200 HP, 3 lives)."
+  }
+}

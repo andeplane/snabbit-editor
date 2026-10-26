@@ -1,0 +1,393 @@
+{
+  "levelId": "4002",
+  "width": 16,
+  "height": 55,
+  "result": {
+    "status": "optimal",
+    "expanded": 401,
+    "score": 1330,
+    "turns": 8,
+    "stars": 3,
+    "crashes": 0,
+    "path": [
+      {
+        "row": 0,
+        "col": 9,
+        "direction": 1,
+        "time": 0,
+        "switchMask": 0
+      },
+      {
+        "row": 1,
+        "col": 9,
+        "direction": 1,
+        "time": 8,
+        "switchMask": 0
+      },
+      {
+        "row": 2,
+        "col": 10,
+        "direction": 1,
+        "time": 16,
+        "switchMask": 0
+      },
+      {
+        "row": 3,
+        "col": 10,
+        "direction": 1,
+        "time": 24,
+        "switchMask": 0
+      },
+      {
+        "row": 4,
+        "col": 11,
+        "direction": 1,
+        "time": 32,
+        "switchMask": 0
+      },
+      {
+        "row": 5,
+        "col": 11,
+        "direction": 1,
+        "time": 40,
+        "switchMask": 0
+      },
+      {
+        "row": 6,
+        "col": 12,
+        "direction": 1,
+        "time": 48,
+        "switchMask": 0
+      },
+      {
+        "row": 7,
+        "col": 12,
+        "direction": 1,
+        "time": 56,
+        "switchMask": 0
+      },
+      {
+        "row": 8,
+        "col": 13,
+        "direction": 1,
+        "time": 64,
+        "switchMask": 0
+      },
+      {
+        "row": 9,
+        "col": 12,
+        "direction": -1,
+        "time": 72,
+        "switchMask": 0
+      },
+      {
+        "row": 10,
+        "col": 12,
+        "direction": -1,
+        "time": 80,
+        "switchMask": 0
+      },
+      {
+        "row": 11,
+        "col": 11,
+        "direction": -1,
+        "time": 88,
+        "switchMask": 0
+      },
+      {
+        "row": 12,
+        "col": 11,
+        "direction": -1,
+        "time": 96,
+        "switchMask": 0
+      },
+      {
+        "row": 13,
+        "col": 10,
+        "direction": -1,
+        "time": 104,
+        "switchMask": 0
+      },
+      {
+        "row": 14,
+        "col": 10,
+        "direction": -1,
+        "time": 112,
+        "switchMask": 0
+      },
+      {
+        "row": 15,
+        "col": 9,
+        "direction": -1,
+        "time": 120,
+        "switchMask": 0
+      },
+      {
+        "row": 16,
+        "col": 10,
+        "direction": 1,
+        "time": 128,
+        "switchMask": 0
+      },
+      {
+        "row": 17,
+        "col": 10,
+        "direction": 1,
+        "time": 136,
+        "switchMask": 0
+      },
+      {
+        "row": 18,
+        "col": 11,
+        "direction": 1,
+        "time": 144,
+        "switchMask": 0
+      },
+      {
+        "row": 19,
+        "col": 10,
+        "direction": -1,
+        "time": 152,
+        "switchMask": 1
+      },
+      {
+        "row": 20,
+        "col": 10,
+        "direction": -1,
+        "time": 160,
+        "switchMask": 1
+      },
+      {
+        "row": 21,
+        "col": 9,
+        "direction": -1,
+        "time": 168,
+        "switchMask": 1
+      },
+      {
+        "row": 22,
+        "col": 9,
+        "direction": -1,
+        "time": 176,
+        "switchMask": 1
+      },
+      {
+        "row": 23,
+        "col": 8,
+        "direction": -1,
+        "time": 184,
+        "switchMask": 1
+      },
+      {
+        "row": 24,
+        "col": 8,
+        "direction": -1,
+        "time": 192,
+        "switchMask": 1
+      },
+      {
+        "row": 25,
+        "col": 7,
+        "direction": -1,
+        "time": 200,
+        "switchMask": 1
+      },
+      {
+        "row": 26,
+        "col": 8,
+        "direction": 1,
+        "time": 208,
+        "switchMask": 1
+      },
+      {
+        "row": 27,
+        "col": 8,
+        "direction": 1,
+        "time": 216,
+        "switchMask": 1
+      },
+      {
+        "row": 28,
+        "col": 9,
+        "direction": 1,
+        "time": 224,
+        "switchMask": 1
+      },
+      {
+        "row": 29,
+        "col": 9,
+        "direction": 1,
+        "time": 232,
+        "switchMask": 1
+      },
+      {
+        "row": 30,
+        "col": 10,
+        "direction": 1,
+        "time": 240,
+        "switchMask": 1
+      },
+      {
+        "row": 31,
+        "col": 10,
+        "direction": 1,
+        "time": 248,
+        "switchMask": 1
+      },
+      {
+        "row": 32,
+        "col": 10,
+        "direction": -1,
+        "time": 256,
+        "switchMask": 1
+      },
+      {
+        "row": 33,
+        "col": 9,
+        "direction": -1,
+        "time": 264,
+        "switchMask": 1
+      },
+      {
+        "row": 34,
+        "col": 9,
+        "direction": -1,
+        "time": 272,
+        "switchMask": 1
+      },
+      {
+        "row": 35,
+        "col": 9,
+        "direction": 1,
+        "time": 280,
+        "switchMask": 1
+      },
+      {
+        "row": 36,
+        "col": 10,
+        "direction": 1,
+        "time": 288,
+        "switchMask": 1
+      },
+      {
+        "row": 37,
+        "col": 10,
+        "direction": 1,
+        "time": 296,
+        "switchMask": 1
+      },
+      {
+        "row": 38,
+        "col": 11,
+        "direction": 1,
+        "time": 304,
+        "switchMask": 1
+      },
+      {
+        "row": 39,
+        "col": 11,
+        "direction": 1,
+        "time": 312,
+        "switchMask": 1
+      },
+      {
+        "row": 40,
+        "col": 11,
+        "direction": -1,
+        "time": 320,
+        "switchMask": 1
+      },
+      {
+        "row": 41,
+        "col": 10,
+        "direction": -1,
+        "time": 328,
+        "switchMask": 1
+      },
+      {
+        "row": 42,
+        "col": 10,
+        "direction": -1,
+        "time": 336,
+        "switchMask": 1
+      },
+      {
+        "row": 43,
+        "col": 9,
+        "direction": -1,
+        "time": 344,
+        "switchMask": 1
+      },
+      {
+        "row": 44,
+        "col": 9,
+        "direction": -1,
+        "time": 352,
+        "switchMask": 1
+      },
+      {
+        "row": 45,
+        "col": 8,
+        "direction": -1,
+        "time": 360,
+        "switchMask": 1
+      },
+      {
+        "row": 46,
+        "col": 8,
+        "direction": -1,
+        "time": 368,
+        "switchMask": 1
+      },
+      {
+        "row": 47,
+        "col": 7,
+        "direction": -1,
+        "time": 376,
+        "switchMask": 1
+      },
+      {
+        "row": 48,
+        "col": 8,
+        "direction": 1,
+        "time": 384,
+        "switchMask": 1
+      },
+      {
+        "row": 48,
+        "col": 8,
+        "direction": 1,
+        "time": 392,
+        "switchMask": 1
+      }
+    ]
+  },
+  "replay": {
+    "status": "finished",
+    "stars": 3,
+    "crashes": 0,
+    "gems": 1,
+    "turns": 8,
+    "lives": 3,
+    "switchMask": 1
+  },
+  "gateDisabled": {
+    "status": "unreachable",
+    "stars": 0,
+    "score": 0
+  },
+  "switch": {
+    "row": 18,
+    "col": 11,
+    "channel": "A"
+  },
+  "gate": {
+    "row": 32,
+    "cols": [
+      8,
+      9,
+      10
+    ],
+    "channel": "A"
+  }
+}

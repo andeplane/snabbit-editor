@@ -1,0 +1,522 @@
+{
+  "id": "4013",
+  "name": "Leave the Refund",
+  "strictTypedCore": true,
+  "winning": {
+    "status": "finished",
+    "stars": 3,
+    "lives": 1,
+    "score": 1195,
+    "time": 344,
+    "crashes": 2,
+    "turns": 19,
+    "switchMask": 1,
+    "waypoints": [
+      [
+        [
+          6,
+          9
+        ],
+        0
+      ],
+      [
+        [
+          12,
+          9
+        ],
+        0
+      ],
+      [
+        [
+          17,
+          8
+        ],
+        0
+      ],
+      [
+        [
+          19,
+          8
+        ],
+        1
+      ],
+      [
+        [
+          22,
+          9
+        ],
+        1
+      ],
+      [
+        [
+          27,
+          8
+        ],
+        1
+      ],
+      [
+        [
+          31,
+          10
+        ],
+        1
+      ],
+      [
+        [
+          34,
+          10
+        ],
+        2
+      ],
+      [
+        [
+          36,
+          10
+        ],
+        2
+      ],
+      [
+        [
+          40,
+          10
+        ],
+        2
+      ]
+    ],
+    "switchEvents": [
+      {
+        "row": 6,
+        "col": 9,
+        "time": 56,
+        "from": 0,
+        "to": 1
+      }
+    ],
+    "hitEvents": [
+      {
+        "row": 18,
+        "col": 8,
+        "time": 152,
+        "lives": 2
+      },
+      {
+        "row": 33,
+        "col": 9,
+        "time": 280,
+        "lives": 1
+      }
+    ],
+    "path": [
+      {
+        "row": 0,
+        "col": 9,
+        "direction": 1,
+        "time": 0
+      },
+      {
+        "row": 1,
+        "col": 9,
+        "direction": 1,
+        "time": 8,
+        "switchMask": 0
+      },
+      {
+        "row": 2,
+        "col": 10,
+        "direction": 1,
+        "time": 16,
+        "switchMask": 0
+      },
+      {
+        "row": 3,
+        "col": 10,
+        "direction": 1,
+        "time": 24,
+        "switchMask": 0
+      },
+      {
+        "row": 4,
+        "col": 10,
+        "direction": -1,
+        "time": 32,
+        "switchMask": 0
+      },
+      {
+        "row": 5,
+        "col": 9,
+        "direction": -1,
+        "time": 40,
+        "switchMask": 0
+      },
+      {
+        "row": 6,
+        "col": 9,
+        "direction": -1,
+        "time": 48,
+        "switchMask": 0
+      },
+      {
+        "row": 7,
+        "col": 9,
+        "direction": 1,
+        "time": 56,
+        "switchMask": 1
+      },
+      {
+        "row": 8,
+        "col": 9,
+        "direction": -1,
+        "time": 64,
+        "switchMask": 1
+      },
+      {
+        "row": 9,
+        "col": 9,
+        "direction": 1,
+        "time": 72,
+        "switchMask": 1
+      },
+      {
+        "row": 10,
+        "col": 9,
+        "direction": -1,
+        "time": 80,
+        "switchMask": 1
+      },
+      {
+        "row": 11,
+        "col": 8,
+        "direction": -1,
+        "time": 88,
+        "switchMask": 1
+      },
+      {
+        "row": 12,
+        "col": 9,
+        "direction": 1,
+        "time": 96,
+        "switchMask": 1
+      },
+      {
+        "row": 13,
+        "col": 8,
+        "direction": -1,
+        "time": 104,
+        "switchMask": 1
+      },
+      {
+        "row": 14,
+        "col": 8,
+        "direction": -1,
+        "time": 112,
+        "switchMask": 1
+      },
+      {
+        "row": 15,
+        "col": 7,
+        "direction": -1,
+        "time": 120,
+        "switchMask": 1
+      },
+      {
+        "row": 16,
+        "col": 8,
+        "direction": 1,
+        "time": 128,
+        "switchMask": 1
+      },
+      {
+        "row": 17,
+        "col": 8,
+        "direction": 1,
+        "time": 136,
+        "switchMask": 1
+      },
+      {
+        "row": 17,
+        "col": 8,
+        "direction": -1,
+        "time": 144,
+        "switchMask": 1
+      },
+      {
+        "row": 18,
+        "col": 8,
+        "direction": -1,
+        "time": 152,
+        "switchMask": 1
+      },
+      {
+        "row": 19,
+        "col": 8,
+        "direction": 1,
+        "time": 160,
+        "switchMask": 1
+      },
+      {
+        "row": 20,
+        "col": 8,
+        "direction": -1,
+        "time": 168,
+        "switchMask": 1
+      },
+      {
+        "row": 21,
+        "col": 8,
+        "direction": 1,
+        "time": 176,
+        "switchMask": 1
+      },
+      {
+        "row": 22,
+        "col": 9,
+        "direction": 1,
+        "time": 184,
+        "switchMask": 1
+      },
+      {
+        "row": 23,
+        "col": 8,
+        "direction": -1,
+        "time": 192,
+        "switchMask": 1
+      },
+      {
+        "row": 24,
+        "col": 8,
+        "direction": -1,
+        "time": 200,
+        "switchMask": 1
+      },
+      {
+        "row": 25,
+        "col": 7,
+        "direction": -1,
+        "time": 208,
+        "switchMask": 1
+      },
+      {
+        "row": 26,
+        "col": 8,
+        "direction": 1,
+        "time": 216,
+        "switchMask": 1
+      },
+      {
+        "row": 27,
+        "col": 8,
+        "direction": 1,
+        "time": 224,
+        "switchMask": 1
+      },
+      {
+        "row": 28,
+        "col": 9,
+        "direction": 1,
+        "time": 232,
+        "switchMask": 1
+      },
+      {
+        "row": 29,
+        "col": 9,
+        "direction": 1,
+        "time": 240,
+        "switchMask": 1
+      },
+      {
+        "row": 30,
+        "col": 10,
+        "direction": 1,
+        "time": 248,
+        "switchMask": 1
+      },
+      {
+        "row": 31,
+        "col": 10,
+        "direction": 1,
+        "time": 256,
+        "switchMask": 1
+      },
+      {
+        "row": 32,
+        "col": 10,
+        "direction": -1,
+        "time": 264,
+        "switchMask": 1
+      },
+      {
+        "row": 32,
+        "col": 10,
+        "direction": -1,
+        "time": 272,
+        "switchMask": 1
+      },
+      {
+        "row": 33,
+        "col": 9,
+        "direction": -1,
+        "time": 280,
+        "switchMask": 1
+      },
+      {
+        "row": 34,
+        "col": 10,
+        "direction": 1,
+        "time": 288,
+        "switchMask": 1
+      },
+      {
+        "row": 35,
+        "col": 10,
+        "direction": 1,
+        "time": 296,
+        "switchMask": 1
+      },
+      {
+        "row": 36,
+        "col": 10,
+        "direction": -1,
+        "time": 304,
+        "switchMask": 1
+      },
+      {
+        "row": 37,
+        "col": 9,
+        "direction": -1,
+        "time": 312,
+        "switchMask": 1
+      },
+      {
+        "row": 38,
+        "col": 10,
+        "direction": 1,
+        "time": 320,
+        "switchMask": 1
+      },
+      {
+        "row": 39,
+        "col": 10,
+        "direction": 1,
+        "time": 328,
+        "switchMask": 1
+      },
+      {
+        "row": 40,
+        "col": 10,
+        "direction": -1,
+        "time": 336,
+        "switchMask": 1
+      }
+    ]
+  },
+  "replay": {
+    "status": "finished",
+    "stars": 3,
+    "lives": 1,
+    "score": 1195,
+    "time": 344,
+    "crashes": 2,
+    "turns": 19,
+    "switchMask": 1
+  },
+  "counterfactuals": {
+    "takeRefund": {
+      "afterHeart": {
+        "status": "running",
+        "stars": 1,
+        "lives": 4,
+        "score": 450,
+        "time": 168,
+        "crashes": 0,
+        "turns": 10,
+        "switchMask": 0
+      },
+      "expanded": 161,
+      "maxStars": 2,
+      "finished": 0,
+      "maxFinishedStars": 0,
+      "reachedUpperReward": true
+    },
+    "afterThreeBypassHits": {
+      "status": "running",
+      "stars": 2,
+      "lives": 1,
+      "score": 835,
+      "time": 280,
+      "crashes": 3,
+      "turns": 15,
+      "switchMask": 0
+    },
+    "finalTollDeath": {
+      "status": "dead",
+      "stars": 2,
+      "lives": 0,
+      "score": 835,
+      "time": 296,
+      "crashes": 4,
+      "turns": 15,
+      "switchMask": 0
+    },
+    "removeFinalToll": {
+      "status": "finished",
+      "stars": 3,
+      "lives": 1,
+      "score": 1195,
+      "time": 352,
+      "crashes": 3,
+      "turns": 19,
+      "switchMask": 0
+    },
+    "removeBypassCost": {
+      "status": "finished",
+      "stars": 3,
+      "lives": 3,
+      "score": 1195,
+      "time": 336,
+      "crashes": 1,
+      "turns": 19,
+      "switchMask": 0
+    },
+    "removeSecondToggle": {
+      "status": "finished",
+      "stars": 3,
+      "lives": 3,
+      "score": 1195,
+      "time": 336,
+      "crashes": 1,
+      "turns": 19,
+      "switchMask": 1
+    }
+  },
+  "stateTruth": [
+    {
+      "mask": 0,
+      "firstGate": 200,
+      "valuableGate": 200
+    },
+    {
+      "mask": 1,
+      "firstGate": 0,
+      "valuableGate": 0
+    }
+  ],
+  "budget": {
+    "skipHeart": {
+      "start": 3,
+      "lowerDirt": 1,
+      "finalDirt": 1,
+      "finish": 1
+    },
+    "takeHeart": {
+      "start": 3,
+      "heart": 1,
+      "bypassDirtCells": 3,
+      "finalDirt": 1,
+      "maxBeforeBypass": 4
+    },
+    "gems": 4,
+    "comboUnavailable": true
+  },
+  "nativeCaution": "Typed shared-core decision-boundary proof assumes one full life per confirmed collision. Native collision-drain correction is being integrated by root; native acceptance remains pending. The complete fork-to-final-toll chamber spans rows18-33 with only three bypass dirt cells.",
+  "scope": "No copied simulation; all transitions use src/core/simulation.ts. No global optimal-score claim; exhaustive reachability applies to wrong branch only."
+}

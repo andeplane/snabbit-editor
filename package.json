@@ -12,7 +12,8 @@
     "test:coverage": "vitest run --coverage",
     "typecheck": "tsc --noEmit && tsc -p tsconfig.tests.json --noEmit",
     "test:ui": "vitest run tests/app.test.tsx tests/canvas.test.tsx tests/components.test.tsx tests/hooks.test.tsx",
-    "test:browser": "playwright test"
+    "test:browser": "playwright test",
+    "test:puzzles": "tsx scripts/validate-puzzles.ts"
   },
   "dependencies": {
     "react": "^18.3.1",

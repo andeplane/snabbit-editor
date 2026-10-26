@@ -1,0 +1,12 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "referencePaths": [
+    "design/pack4-redesign/references/pack1-openings.png",
+    "design/pack4-redesign/references/pack2-openings.png",
+    "design/pack4-redesign/references/pack3-openings.png",
+    "design/pack4-redesign/level-1/source-sprites.png"
+  ],
+  "referenceUse": "Inspected as style references before generation; not passed as image edits.",
+  "savedGeneratedSourcePath": "/Users/anderhaf/.codex/generated_images/01a1750b-44c2-78d0-93c8-5a114085f281/exec-2625df84-c090-4ea2-bab1-d9594a80b3b9.png",
+  "prompt": "Use case: stylized-concept\nAsset type: vertical whole-level composition for the existing Snabbit hex-grid puzzle game, original sprite art style.\nPrimary request: suggest the visual composition of a level named Leave the Refund. Upward travel from bottom to top. A chunky gray asteroid crescent curls around a narrow airy central channel, with a small round hollow on its RIGHT containing a bright red heart immediately above a chunky gray lever. An earlier matching lever low in the central approach is mandatory. In the upper half, a narrow open gate gap leads leftward to a star and onward; an alternative right passage is visibly packed with four brown dirt nuggets, making that heart-side route a bad future bargain. Three yellow stars total, a sparse cyan gem or two, a golden finish near the top. Organic asymmetric broad masses, chipped edges, jagged crescent tips, varied hollows, plenty of dark navy negative space. Isometric-looking faceted white metal asteroid tiles on the staggered diamond/hex grid used by Snabbit, earthy brown dirt, faceted cyan gems, yellow five-point stars, red life heart, original gray lever with orange or green knob.\nComposition: tall portrait whole map, right-hand refund pocket attached to a sculpted hollow crescent, left side spacious and visibly lower-cost, wider quiet approach below. No text, no arrows, no labels, no colored coding on rocks, no full-width horizontal wall strips, no repetitive zigzag, no collectible rail. This is a suggested map composition with existing game sprites, not a new art style."
+}

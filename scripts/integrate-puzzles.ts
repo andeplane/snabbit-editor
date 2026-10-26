@@ -1,0 +1,18 @@
+import {readFileSync,writeFileSync} from 'node:fs';
+import {gzipSync} from 'node:zlib';
+import {parseStoryData,validateLevel} from '../src/core/serialization';
+const count=Number(process.argv[2]??10);
+if(!Number.isInteger(count)||count<0||count>10)throw new Error('Choose 0–10 puzzles.');
+const file='game-resources/Levels/data/storyData.txt';
+const packs=parseStoryData(readFileSync(file,'utf8'));
+const pack=packs['40'];
+const diagnostic=pack.levels.find(level=>level._id==='4001');
+if(!diagnostic)throw new Error('Keep the original diagnostic.');
+const introductions=pack.levels.filter(level=>Number(level._id)>=4002&&Number(level._id)<=4006);
+if(introductions.length!==5)throw new Error('Keep all five accepted introductions.');
+const puzzles=Array.from({length:count},(_,index)=>validateLevel(JSON.parse(readFileSync(`design/pack4-puzzles/puzzle-${String(index+1).padStart(2,'0')}/level.json`,'utf8')) as unknown));
+const other=pack.levels.filter(level=>level._id!=='4001'&&(Number(level._id)<4002||Number(level._id)>4016));
+pack.levels=[...introductions,...puzzles,...other,diagnostic];
+const data=JSON.stringify(packs);
+writeFileSync(file,data);writeFileSync(file+'.gz',gzipSync(data));
+console.log(`Integrated ${count} puzzles; preserved introductions, other authored levels and diagnostic.`);

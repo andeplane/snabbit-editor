@@ -1,0 +1,2461 @@
+{
+  "renderStates": {
+    "initial": {
+      "87": false,
+      "201": false,
+      "328": false,
+      "425": true
+    },
+    "selected": {
+      "87": true,
+      "201": true,
+      "328": true,
+      "425": false
+    }
+  },
+  "levelId": "4014",
+  "board": {
+    "width": 16,
+    "height": 45,
+    "totalGems": 8,
+    "totalHearts": 4,
+    "mouths": [
+      87,
+      201,
+      328
+    ],
+    "levers": [
+      {
+        "row": 8,
+        "col": 7
+      },
+      {
+        "row": 14,
+        "col": 10
+      },
+      {
+        "row": 22,
+        "col": 7
+      }
+    ]
+  },
+  "winningReplay": {
+    "status": "finished",
+    "lives": 1,
+    "stars": 3,
+    "score": 1250,
+    "time": 384,
+    "crashes": 5,
+    "turns": 12,
+    "gems": 3,
+    "diamonds": 0,
+    "events": [
+      {
+        "row": 15,
+        "col": 10,
+        "time": 120,
+        "lives": 3,
+        "mask": 1,
+        "stars": 0,
+        "growing": false,
+        "collision": false,
+        "kind": "lever-2"
+      },
+      {
+        "row": 17,
+        "col": 11,
+        "time": 136,
+        "lives": 4,
+        "mask": 1,
+        "stars": 0,
+        "growing": true,
+        "collision": false,
+        "kind": "health"
+      },
+      {
+        "row": 18,
+        "col": 11,
+        "time": 144,
+        "lives": 5,
+        "mask": 1,
+        "stars": 0,
+        "growing": true,
+        "collision": false,
+        "kind": "health"
+      },
+      {
+        "row": 19,
+        "col": 10,
+        "time": 152,
+        "lives": 6,
+        "mask": 1,
+        "stars": 0,
+        "growing": false,
+        "collision": false,
+        "kind": "health"
+      },
+      {
+        "row": 27,
+        "col": 9,
+        "time": 224,
+        "lives": 6,
+        "mask": 1,
+        "stars": 1,
+        "growing": false,
+        "collision": true,
+        "kind": "impact"
+      },
+      {
+        "row": 28,
+        "col": 10,
+        "time": 232,
+        "lives": 5,
+        "mask": 1,
+        "stars": 1,
+        "growing": false,
+        "collision": false,
+        "kind": "health"
+      },
+      {
+        "row": 28,
+        "col": 10,
+        "time": 240,
+        "lives": 5,
+        "mask": 1,
+        "stars": 1,
+        "growing": false,
+        "collision": true,
+        "kind": "impact"
+      },
+      {
+        "row": 29,
+        "col": 10,
+        "time": 248,
+        "lives": 4,
+        "mask": 1,
+        "stars": 1,
+        "growing": false,
+        "collision": false,
+        "kind": "health"
+      },
+      {
+        "row": 29,
+        "col": 10,
+        "time": 256,
+        "lives": 4,
+        "mask": 1,
+        "stars": 1,
+        "growing": false,
+        "collision": true,
+        "kind": "impact"
+      },
+      {
+        "row": 30,
+        "col": 11,
+        "time": 264,
+        "lives": 3,
+        "mask": 1,
+        "stars": 1,
+        "growing": false,
+        "collision": false,
+        "kind": "health"
+      },
+      {
+        "row": 30,
+        "col": 11,
+        "time": 272,
+        "lives": 3,
+        "mask": 1,
+        "stars": 1,
+        "growing": false,
+        "collision": true,
+        "kind": "impact"
+      },
+      {
+        "row": 31,
+        "col": 11,
+        "time": 280,
+        "lives": 2,
+        "mask": 1,
+        "stars": 1,
+        "growing": false,
+        "collision": false,
+        "kind": "health"
+      },
+      {
+        "row": 31,
+        "col": 11,
+        "time": 288,
+        "lives": 2,
+        "mask": 1,
+        "stars": 1,
+        "growing": false,
+        "collision": true,
+        "kind": "impact"
+      },
+      {
+        "row": 32,
+        "col": 12,
+        "time": 296,
+        "lives": 1,
+        "mask": 1,
+        "stars": 1,
+        "growing": false,
+        "collision": false,
+        "kind": "health"
+      },
+      {
+        "row": 34,
+        "col": 13,
+        "time": 312,
+        "lives": 1,
+        "mask": 1,
+        "stars": 2,
+        "growing": false,
+        "collision": false,
+        "kind": "star"
+      },
+      {
+        "row": 40,
+        "col": 10,
+        "time": 360,
+        "lives": 1,
+        "mask": 1,
+        "stars": 3,
+        "growing": false,
+        "collision": false,
+        "kind": "star"
+      },
+      {
+        "row": 42,
+        "col": 11,
+        "time": 384,
+        "lives": 1,
+        "mask": 1,
+        "stars": 3,
+        "growing": false,
+        "collision": false,
+        "kind": "finished"
+      }
+    ],
+    "path": [
+      {
+        "row": 0,
+        "col": 9,
+        "direction": 1,
+        "time": 0
+      },
+      {
+        "row": 1,
+        "col": 9,
+        "direction": 1,
+        "time": 8,
+        "switchMask": 0
+      },
+      {
+        "row": 2,
+        "col": 10,
+        "direction": 1,
+        "time": 16,
+        "switchMask": 0
+      },
+      {
+        "row": 3,
+        "col": 9,
+        "direction": -1,
+        "time": 24,
+        "switchMask": 0
+      },
+      {
+        "row": 4,
+        "col": 9,
+        "direction": -1,
+        "time": 32,
+        "switchMask": 0
+      },
+      {
+        "row": 5,
+        "col": 9,
+        "direction": 1,
+        "time": 40,
+        "switchMask": 0
+      },
+      {
+        "row": 6,
+        "col": 10,
+        "direction": 1,
+        "time": 48,
+        "switchMask": 0
+      },
+      {
+        "row": 7,
+        "col": 9,
+        "direction": -1,
+        "time": 56,
+        "switchMask": 0
+      },
+      {
+        "row": 8,
+        "col": 9,
+        "direction": -1,
+        "time": 64,
+        "switchMask": 0
+      },
+      {
+        "row": 9,
+        "col": 9,
+        "direction": 1,
+        "time": 72,
+        "switchMask": 0
+      },
+      {
+        "row": 10,
+        "col": 9,
+        "direction": -1,
+        "time": 80,
+        "switchMask": 0
+      },
+      {
+        "row": 11,
+        "col": 8,
+        "direction": -1,
+        "time": 88,
+        "switchMask": 0
+      },
+      {
+        "row": 12,
+        "col": 9,
+        "direction": 1,
+        "time": 96,
+        "switchMask": 0
+      },
+      {
+        "row": 13,
+        "col": 9,
+        "direction": 1,
+        "time": 104,
+        "switchMask": 0
+      },
+      {
+        "row": 14,
+        "col": 10,
+        "direction": 1,
+        "time": 112,
+        "switchMask": 0
+      },
+      {
+        "row": 15,
+        "col": 10,
+        "direction": 1,
+        "time": 120,
+        "switchMask": 1
+      },
+      {
+        "row": 16,
+        "col": 11,
+        "direction": 1,
+        "time": 128,
+        "switchMask": 1
+      },
+      {
+        "row": 17,
+        "col": 11,
+        "direction": 1,
+        "time": 136,
+        "switchMask": 1
+      },
+      {
+        "row": 18,
+        "col": 11,
+        "direction": -1,
+        "time": 144,
+        "switchMask": 1
+      },
+      {
+        "row": 19,
+        "col": 10,
+        "direction": -1,
+        "time": 152,
+        "switchMask": 1
+      },
+      {
+        "row": 20,
+        "col": 10,
+        "direction": -1,
+        "time": 160,
+        "switchMask": 1
+      },
+      {
+        "row": 21,
+        "col": 9,
+        "direction": -1,
+        "time": 168,
+        "switchMask": 1
+      },
+      {
+        "row": 22,
+        "col": 9,
+        "direction": -1,
+        "time": 176,
+        "switchMask": 1
+      },
+      {
+        "row": 23,
+        "col": 9,
+        "direction": 1,
+        "time": 184,
+        "switchMask": 1
+      },
+      {
+        "row": 24,
+        "col": 10,
+        "direction": 1,
+        "time": 192,
+        "switchMask": 1
+      },
+      {
+        "row": 25,
+        "col": 9,
+        "direction": -1,
+        "time": 200,
+        "switchMask": 1
+      },
+      {
+        "row": 26,
+        "col": 9,
+        "direction": -1,
+        "time": 208,
+        "switchMask": 1
+      },
+      {
+        "row": 27,
+        "col": 9,
+        "direction": 1,
+        "time": 216,
+        "switchMask": 1
+      },
+      {
+        "row": 27,
+        "col": 9,
+        "direction": 1,
+        "time": 224,
+        "switchMask": 1
+      },
+      {
+        "row": 28,
+        "col": 10,
+        "direction": 1,
+        "time": 232,
+        "switchMask": 1
+      },
+      {
+        "row": 28,
+        "col": 10,
+        "direction": 1,
+        "time": 240,
+        "switchMask": 1
+      },
+      {
+        "row": 29,
+        "col": 10,
+        "direction": 1,
+        "time": 248,
+        "switchMask": 1
+      },
+      {
+        "row": 29,
+        "col": 10,
+        "direction": 1,
+        "time": 256,
+        "switchMask": 1
+      },
+      {
+        "row": 30,
+        "col": 11,
+        "direction": 1,
+        "time": 264,
+        "switchMask": 1
+      },
+      {
+        "row": 30,
+        "col": 11,
+        "direction": 1,
+        "time": 272,
+        "switchMask": 1
+      },
+      {
+        "row": 31,
+        "col": 11,
+        "direction": 1,
+        "time": 280,
+        "switchMask": 1
+      },
+      {
+        "row": 31,
+        "col": 11,
+        "direction": 1,
+        "time": 288,
+        "switchMask": 1
+      },
+      {
+        "row": 32,
+        "col": 12,
+        "direction": 1,
+        "time": 296,
+        "switchMask": 1
+      },
+      {
+        "row": 33,
+        "col": 12,
+        "direction": 1,
+        "time": 304,
+        "switchMask": 1
+      },
+      {
+        "row": 34,
+        "col": 13,
+        "direction": 1,
+        "time": 312,
+        "switchMask": 1
+      },
+      {
+        "row": 35,
+        "col": 12,
+        "direction": -1,
+        "time": 320,
+        "switchMask": 1
+      },
+      {
+        "row": 36,
+        "col": 12,
+        "direction": -1,
+        "time": 328,
+        "switchMask": 1
+      },
+      {
+        "row": 37,
+        "col": 11,
+        "direction": -1,
+        "time": 336,
+        "switchMask": 1
+      },
+      {
+        "row": 38,
+        "col": 11,
+        "direction": -1,
+        "time": 344,
+        "switchMask": 1
+      },
+      {
+        "row": 39,
+        "col": 10,
+        "direction": -1,
+        "time": 352,
+        "switchMask": 1
+      },
+      {
+        "row": 40,
+        "col": 10,
+        "direction": -1,
+        "time": 360,
+        "switchMask": 1
+      },
+      {
+        "row": 41,
+        "col": 10,
+        "direction": 1,
+        "time": 368,
+        "switchMask": 1
+      },
+      {
+        "row": 42,
+        "col": 11,
+        "direction": 1,
+        "time": 376,
+        "switchMask": 1
+      }
+    ]
+  },
+  "firstChoiceReplay": {
+    "status": "dead",
+    "lives": 0,
+    "stars": 1,
+    "score": 505,
+    "time": 280,
+    "crashes": 4,
+    "turns": 18,
+    "gems": 1,
+    "diamonds": 0,
+    "events": [
+      {
+        "row": 9,
+        "col": 7,
+        "time": 72,
+        "lives": 3,
+        "mask": 1,
+        "stars": 0,
+        "growing": false,
+        "collision": false,
+        "kind": "lever-1"
+      },
+      {
+        "row": 11,
+        "col": 8,
+        "time": 88,
+        "lives": 4,
+        "mask": 1,
+        "stars": 0,
+        "growing": false,
+        "collision": false,
+        "kind": "health"
+      },
+      {
+        "row": 27,
+        "col": 9,
+        "time": 224,
+        "lives": 4,
+        "mask": 1,
+        "stars": 1,
+        "growing": false,
+        "collision": true,
+        "kind": "impact"
+      },
+      {
+        "row": 28,
+        "col": 10,
+        "time": 232,
+        "lives": 3,
+        "mask": 1,
+        "stars": 1,
+        "growing": false,
+        "collision": false,
+        "kind": "health"
+      },
+      {
+        "row": 28,
+        "col": 10,
+        "time": 240,
+        "lives": 3,
+        "mask": 1,
+        "stars": 1,
+        "growing": false,
+        "collision": true,
+        "kind": "impact"
+      },
+      {
+        "row": 29,
+        "col": 10,
+        "time": 248,
+        "lives": 2,
+        "mask": 1,
+        "stars": 1,
+        "growing": false,
+        "collision": false,
+        "kind": "health"
+      },
+      {
+        "row": 29,
+        "col": 10,
+        "time": 256,
+        "lives": 2,
+        "mask": 1,
+        "stars": 1,
+        "growing": false,
+        "collision": true,
+        "kind": "impact"
+      },
+      {
+        "row": 30,
+        "col": 11,
+        "time": 264,
+        "lives": 1,
+        "mask": 1,
+        "stars": 1,
+        "growing": false,
+        "collision": false,
+        "kind": "health"
+      },
+      {
+        "row": 30,
+        "col": 11,
+        "time": 272,
+        "lives": 1,
+        "mask": 1,
+        "stars": 1,
+        "growing": false,
+        "collision": true,
+        "kind": "impact"
+      },
+      {
+        "row": 30,
+        "col": 11,
+        "time": 280,
+        "lives": 0,
+        "mask": 1,
+        "stars": 1,
+        "growing": false,
+        "collision": true,
+        "kind": "dead"
+      }
+    ],
+    "path": [
+      {
+        "row": 0,
+        "col": 9,
+        "direction": 1,
+        "time": 0
+      },
+      {
+        "row": 1,
+        "col": 8,
+        "direction": -1,
+        "time": 8,
+        "switchMask": 0
+      },
+      {
+        "row": 2,
+        "col": 8,
+        "direction": -1,
+        "time": 16,
+        "switchMask": 0
+      },
+      {
+        "row": 3,
+        "col": 7,
+        "direction": -1,
+        "time": 24,
+        "switchMask": 0
+      },
+      {
+        "row": 4,
+        "col": 7,
+        "direction": -1,
+        "time": 32,
+        "switchMask": 0
+      },
+      {
+        "row": 5,
+        "col": 7,
+        "direction": 1,
+        "time": 40,
+        "switchMask": 0
+      },
+      {
+        "row": 6,
+        "col": 7,
+        "direction": -1,
+        "time": 48,
+        "switchMask": 0
+      },
+      {
+        "row": 7,
+        "col": 7,
+        "direction": 1,
+        "time": 56,
+        "switchMask": 0
+      },
+      {
+        "row": 8,
+        "col": 7,
+        "direction": -1,
+        "time": 64,
+        "switchMask": 0
+      },
+      {
+        "row": 9,
+        "col": 7,
+        "direction": 1,
+        "time": 72,
+        "switchMask": 1
+      },
+      {
+        "row": 10,
+        "col": 8,
+        "direction": 1,
+        "time": 80,
+        "switchMask": 1
+      },
+      {
+        "row": 11,
+        "col": 8,
+        "direction": 1,
+        "time": 88,
+        "switchMask": 1
+      },
+      {
+        "row": 12,
+        "col": 8,
+        "direction": -1,
+        "time": 96,
+        "switchMask": 1
+      },
+      {
+        "row": 13,
+        "col": 8,
+        "direction": 1,
+        "time": 104,
+        "switchMask": 1
+      },
+      {
+        "row": 14,
+        "col": 8,
+        "direction": -1,
+        "time": 112,
+        "switchMask": 1
+      },
+      {
+        "row": 15,
+        "col": 8,
+        "direction": 1,
+        "time": 120,
+        "switchMask": 1
+      },
+      {
+        "row": 16,
+        "col": 9,
+        "direction": 1,
+        "time": 128,
+        "switchMask": 1
+      },
+      {
+        "row": 17,
+        "col": 9,
+        "direction": 1,
+        "time": 136,
+        "switchMask": 1
+      },
+      {
+        "row": 18,
+        "col": 9,
+        "direction": -1,
+        "time": 144,
+        "switchMask": 1
+      },
+      {
+        "row": 19,
+        "col": 9,
+        "direction": 1,
+        "time": 152,
+        "switchMask": 1
+      },
+      {
+        "row": 20,
+        "col": 9,
+        "direction": -1,
+        "time": 160,
+        "switchMask": 1
+      },
+      {
+        "row": 21,
+        "col": 9,
+        "direction": 1,
+        "time": 168,
+        "switchMask": 1
+      },
+      {
+        "row": 22,
+        "col": 9,
+        "direction": -1,
+        "time": 176,
+        "switchMask": 1
+      },
+      {
+        "row": 23,
+        "col": 9,
+        "direction": 1,
+        "time": 184,
+        "switchMask": 1
+      },
+      {
+        "row": 24,
+        "col": 10,
+        "direction": 1,
+        "time": 192,
+        "switchMask": 1
+      },
+      {
+        "row": 25,
+        "col": 9,
+        "direction": -1,
+        "time": 200,
+        "switchMask": 1
+      },
+      {
+        "row": 26,
+        "col": 9,
+        "direction": -1,
+        "time": 208,
+        "switchMask": 1
+      },
+      {
+        "row": 27,
+        "col": 9,
+        "direction": 1,
+        "time": 216,
+        "switchMask": 1
+      },
+      {
+        "row": 27,
+        "col": 9,
+        "direction": 1,
+        "time": 224,
+        "switchMask": 1
+      },
+      {
+        "row": 28,
+        "col": 10,
+        "direction": 1,
+        "time": 232,
+        "switchMask": 1
+      },
+      {
+        "row": 28,
+        "col": 10,
+        "direction": 1,
+        "time": 240,
+        "switchMask": 1
+      },
+      {
+        "row": 29,
+        "col": 10,
+        "direction": 1,
+        "time": 248,
+        "switchMask": 1
+      },
+      {
+        "row": 29,
+        "col": 10,
+        "direction": 1,
+        "time": 256,
+        "switchMask": 1
+      },
+      {
+        "row": 30,
+        "col": 11,
+        "direction": 1,
+        "time": 264,
+        "switchMask": 1
+      },
+      {
+        "row": 30,
+        "col": 11,
+        "direction": 1,
+        "time": 272,
+        "switchMask": 1
+      }
+    ]
+  },
+  "thirdChoiceReplay": {
+    "status": "dead",
+    "lives": 0,
+    "stars": 1,
+    "score": 2530,
+    "time": 264,
+    "crashes": 3,
+    "turns": 10,
+    "gems": 4,
+    "diamonds": 1,
+    "events": [
+      {
+        "row": 23,
+        "col": 7,
+        "time": 184,
+        "lives": 3,
+        "mask": 1,
+        "stars": 0,
+        "growing": false,
+        "collision": false,
+        "kind": "lever-3"
+      },
+      {
+        "row": 27,
+        "col": 9,
+        "time": 224,
+        "lives": 3,
+        "mask": 1,
+        "stars": 1,
+        "growing": false,
+        "collision": true,
+        "kind": "impact"
+      },
+      {
+        "row": 28,
+        "col": 10,
+        "time": 232,
+        "lives": 2,
+        "mask": 1,
+        "stars": 1,
+        "growing": false,
+        "collision": false,
+        "kind": "health"
+      },
+      {
+        "row": 28,
+        "col": 10,
+        "time": 240,
+        "lives": 2,
+        "mask": 1,
+        "stars": 1,
+        "growing": false,
+        "collision": true,
+        "kind": "impact"
+      },
+      {
+        "row": 29,
+        "col": 10,
+        "time": 248,
+        "lives": 1,
+        "mask": 1,
+        "stars": 1,
+        "growing": false,
+        "collision": false,
+        "kind": "health"
+      },
+      {
+        "row": 29,
+        "col": 10,
+        "time": 256,
+        "lives": 1,
+        "mask": 1,
+        "stars": 1,
+        "growing": false,
+        "collision": true,
+        "kind": "impact"
+      },
+      {
+        "row": 29,
+        "col": 10,
+        "time": 264,
+        "lives": 0,
+        "mask": 1,
+        "stars": 1,
+        "growing": false,
+        "collision": true,
+        "kind": "dead"
+      }
+    ],
+    "path": [
+      {
+        "row": 0,
+        "col": 9,
+        "direction": 1,
+        "time": 0
+      },
+      {
+        "row": 1,
+        "col": 9,
+        "direction": 1,
+        "time": 8,
+        "switchMask": 0
+      },
+      {
+        "row": 2,
+        "col": 10,
+        "direction": 1,
+        "time": 16,
+        "switchMask": 0
+      },
+      {
+        "row": 3,
+        "col": 9,
+        "direction": -1,
+        "time": 24,
+        "switchMask": 0
+      },
+      {
+        "row": 4,
+        "col": 9,
+        "direction": -1,
+        "time": 32,
+        "switchMask": 0
+      },
+      {
+        "row": 5,
+        "col": 9,
+        "direction": 1,
+        "time": 40,
+        "switchMask": 0
+      },
+      {
+        "row": 6,
+        "col": 10,
+        "direction": 1,
+        "time": 48,
+        "switchMask": 0
+      },
+      {
+        "row": 7,
+        "col": 9,
+        "direction": -1,
+        "time": 56,
+        "switchMask": 0
+      },
+      {
+        "row": 8,
+        "col": 9,
+        "direction": -1,
+        "time": 64,
+        "switchMask": 0
+      },
+      {
+        "row": 9,
+        "col": 9,
+        "direction": 1,
+        "time": 72,
+        "switchMask": 0
+      },
+      {
+        "row": 10,
+        "col": 9,
+        "direction": -1,
+        "time": 80,
+        "switchMask": 0
+      },
+      {
+        "row": 11,
+        "col": 8,
+        "direction": -1,
+        "time": 88,
+        "switchMask": 0
+      },
+      {
+        "row": 12,
+        "col": 8,
+        "direction": -1,
+        "time": 96,
+        "switchMask": 0
+      },
+      {
+        "row": 13,
+        "col": 8,
+        "direction": 1,
+        "time": 104,
+        "switchMask": 0
+      },
+      {
+        "row": 14,
+        "col": 9,
+        "direction": 1,
+        "time": 112,
+        "switchMask": 0
+      },
+      {
+        "row": 15,
+        "col": 9,
+        "direction": 1,
+        "time": 120,
+        "switchMask": 0
+      },
+      {
+        "row": 16,
+        "col": 9,
+        "direction": -1,
+        "time": 128,
+        "switchMask": 0
+      },
+      {
+        "row": 17,
+        "col": 8,
+        "direction": -1,
+        "time": 136,
+        "switchMask": 0
+      },
+      {
+        "row": 18,
+        "col": 8,
+        "direction": -1,
+        "time": 144,
+        "switchMask": 0
+      },
+      {
+        "row": 19,
+        "col": 8,
+        "direction": 1,
+        "time": 152,
+        "switchMask": 0
+      },
+      {
+        "row": 20,
+        "col": 8,
+        "direction": -1,
+        "time": 160,
+        "switchMask": 0
+      },
+      {
+        "row": 21,
+        "col": 7,
+        "direction": -1,
+        "time": 168,
+        "switchMask": 0
+      },
+      {
+        "row": 22,
+        "col": 7,
+        "direction": -1,
+        "time": 176,
+        "switchMask": 0
+      },
+      {
+        "row": 23,
+        "col": 7,
+        "direction": 1,
+        "time": 184,
+        "switchMask": 1
+      },
+      {
+        "row": 24,
+        "col": 8,
+        "direction": 1,
+        "time": 192,
+        "switchMask": 1
+      },
+      {
+        "row": 25,
+        "col": 8,
+        "direction": 1,
+        "time": 200,
+        "switchMask": 1
+      },
+      {
+        "row": 26,
+        "col": 9,
+        "direction": 1,
+        "time": 208,
+        "switchMask": 1
+      },
+      {
+        "row": 27,
+        "col": 9,
+        "direction": 1,
+        "time": 216,
+        "switchMask": 1
+      },
+      {
+        "row": 27,
+        "col": 9,
+        "direction": 1,
+        "time": 224,
+        "switchMask": 1
+      },
+      {
+        "row": 28,
+        "col": 10,
+        "direction": 1,
+        "time": 232,
+        "switchMask": 1
+      },
+      {
+        "row": 28,
+        "col": 10,
+        "direction": 1,
+        "time": 240,
+        "switchMask": 1
+      },
+      {
+        "row": 29,
+        "col": 10,
+        "direction": 1,
+        "time": 248,
+        "switchMask": 1
+      },
+      {
+        "row": 29,
+        "col": 10,
+        "direction": 1,
+        "time": 256,
+        "switchMask": 1
+      }
+    ]
+  },
+  "noChoiceReplay": {
+    "status": "dead",
+    "lives": 0,
+    "stars": 0,
+    "score": 165,
+    "time": 232,
+    "crashes": 3,
+    "turns": 15,
+    "gems": 4,
+    "diamonds": 0,
+    "events": [
+      {
+        "row": 25,
+        "col": 9,
+        "time": 208,
+        "lives": 3,
+        "mask": 0,
+        "stars": 0,
+        "growing": false,
+        "collision": true,
+        "kind": "impact"
+      },
+      {
+        "row": 25,
+        "col": 9,
+        "time": 216,
+        "lives": 2,
+        "mask": 0,
+        "stars": 0,
+        "growing": false,
+        "collision": true,
+        "kind": "impact"
+      },
+      {
+        "row": 25,
+        "col": 9,
+        "time": 224,
+        "lives": 1,
+        "mask": 0,
+        "stars": 0,
+        "growing": false,
+        "collision": true,
+        "kind": "impact"
+      },
+      {
+        "row": 25,
+        "col": 9,
+        "time": 232,
+        "lives": 0,
+        "mask": 0,
+        "stars": 0,
+        "growing": false,
+        "collision": true,
+        "kind": "dead"
+      }
+    ],
+    "path": [
+      {
+        "row": 0,
+        "col": 9,
+        "direction": 1,
+        "time": 0
+      },
+      {
+        "row": 1,
+        "col": 9,
+        "direction": 1,
+        "time": 8,
+        "switchMask": 0
+      },
+      {
+        "row": 2,
+        "col": 10,
+        "direction": 1,
+        "time": 16,
+        "switchMask": 0
+      },
+      {
+        "row": 3,
+        "col": 9,
+        "direction": -1,
+        "time": 24,
+        "switchMask": 0
+      },
+      {
+        "row": 4,
+        "col": 9,
+        "direction": -1,
+        "time": 32,
+        "switchMask": 0
+      },
+      {
+        "row": 5,
+        "col": 9,
+        "direction": 1,
+        "time": 40,
+        "switchMask": 0
+      },
+      {
+        "row": 6,
+        "col": 10,
+        "direction": 1,
+        "time": 48,
+        "switchMask": 0
+      },
+      {
+        "row": 7,
+        "col": 9,
+        "direction": -1,
+        "time": 56,
+        "switchMask": 0
+      },
+      {
+        "row": 8,
+        "col": 9,
+        "direction": -1,
+        "time": 64,
+        "switchMask": 0
+      },
+      {
+        "row": 9,
+        "col": 9,
+        "direction": 1,
+        "time": 72,
+        "switchMask": 0
+      },
+      {
+        "row": 10,
+        "col": 9,
+        "direction": -1,
+        "time": 80,
+        "switchMask": 0
+      },
+      {
+        "row": 11,
+        "col": 8,
+        "direction": -1,
+        "time": 88,
+        "switchMask": 0
+      },
+      {
+        "row": 12,
+        "col": 8,
+        "direction": -1,
+        "time": 96,
+        "switchMask": 0
+      },
+      {
+        "row": 13,
+        "col": 8,
+        "direction": 1,
+        "time": 104,
+        "switchMask": 0
+      },
+      {
+        "row": 14,
+        "col": 9,
+        "direction": 1,
+        "time": 112,
+        "switchMask": 0
+      },
+      {
+        "row": 15,
+        "col": 9,
+        "direction": 1,
+        "time": 120,
+        "switchMask": 0
+      },
+      {
+        "row": 16,
+        "col": 9,
+        "direction": -1,
+        "time": 128,
+        "switchMask": 0
+      },
+      {
+        "row": 17,
+        "col": 9,
+        "direction": 1,
+        "time": 136,
+        "switchMask": 0
+      },
+      {
+        "row": 18,
+        "col": 9,
+        "direction": -1,
+        "time": 144,
+        "switchMask": 0
+      },
+      {
+        "row": 19,
+        "col": 9,
+        "direction": 1,
+        "time": 152,
+        "switchMask": 0
+      },
+      {
+        "row": 20,
+        "col": 9,
+        "direction": -1,
+        "time": 160,
+        "switchMask": 0
+      },
+      {
+        "row": 21,
+        "col": 9,
+        "direction": 1,
+        "time": 168,
+        "switchMask": 0
+      },
+      {
+        "row": 22,
+        "col": 9,
+        "direction": -1,
+        "time": 176,
+        "switchMask": 0
+      },
+      {
+        "row": 23,
+        "col": 9,
+        "direction": 1,
+        "time": 184,
+        "switchMask": 0
+      },
+      {
+        "row": 24,
+        "col": 10,
+        "direction": 1,
+        "time": 192,
+        "switchMask": 0
+      },
+      {
+        "row": 25,
+        "col": 9,
+        "direction": -1,
+        "time": 200,
+        "switchMask": 0
+      },
+      {
+        "row": 25,
+        "col": 9,
+        "direction": -1,
+        "time": 208,
+        "switchMask": 0
+      },
+      {
+        "row": 25,
+        "col": 9,
+        "direction": -1,
+        "time": 216,
+        "switchMask": 0
+      },
+      {
+        "row": 25,
+        "col": 9,
+        "direction": -1,
+        "time": 224,
+        "switchMask": 0
+      }
+    ]
+  },
+  "initiallyReachable": [
+    {
+      "reachable": true,
+      "expanded": 5819,
+      "path": [
+        {
+          "row": 0,
+          "col": 9,
+          "direction": 1,
+          "time": 0
+        },
+        {
+          "row": 1,
+          "col": 9,
+          "direction": 1,
+          "time": 8,
+          "switchMask": 0
+        },
+        {
+          "row": 2,
+          "col": 9,
+          "direction": -1,
+          "time": 16,
+          "switchMask": 0
+        },
+        {
+          "row": 3,
+          "col": 8,
+          "direction": -1,
+          "time": 24,
+          "switchMask": 0
+        },
+        {
+          "row": 4,
+          "col": 8,
+          "direction": -1,
+          "time": 32,
+          "switchMask": 0
+        },
+        {
+          "row": 5,
+          "col": 7,
+          "direction": -1,
+          "time": 40,
+          "switchMask": 0
+        },
+        {
+          "row": 5,
+          "col": 7,
+          "direction": 1,
+          "time": 48,
+          "switchMask": 0
+        },
+        {
+          "row": 5,
+          "col": 7,
+          "direction": 1,
+          "time": 56,
+          "switchMask": 0
+        },
+        {
+          "row": 6,
+          "col": 7,
+          "direction": -1,
+          "time": 64,
+          "switchMask": 0
+        },
+        {
+          "row": 7,
+          "col": 7,
+          "direction": 1,
+          "time": 72,
+          "switchMask": 0
+        },
+        {
+          "row": 8,
+          "col": 7,
+          "direction": -1,
+          "time": 80,
+          "switchMask": 0
+        }
+      ]
+    },
+    {
+      "reachable": true,
+      "expanded": 27,
+      "path": [
+        {
+          "row": 0,
+          "col": 9,
+          "direction": 1,
+          "time": 0
+        },
+        {
+          "row": 1,
+          "col": 9,
+          "direction": 1,
+          "time": 8,
+          "switchMask": 0
+        },
+        {
+          "row": 2,
+          "col": 10,
+          "direction": 1,
+          "time": 16,
+          "switchMask": 0
+        },
+        {
+          "row": 3,
+          "col": 10,
+          "direction": 1,
+          "time": 24,
+          "switchMask": 0
+        },
+        {
+          "row": 3,
+          "col": 10,
+          "direction": 1,
+          "time": 32,
+          "switchMask": 0
+        },
+        {
+          "row": 3,
+          "col": 10,
+          "direction": 1,
+          "time": 40,
+          "switchMask": 0
+        },
+        {
+          "row": 4,
+          "col": 10,
+          "direction": -1,
+          "time": 48,
+          "switchMask": 0
+        },
+        {
+          "row": 5,
+          "col": 10,
+          "direction": 1,
+          "time": 56,
+          "switchMask": 0
+        },
+        {
+          "row": 6,
+          "col": 11,
+          "direction": 1,
+          "time": 64,
+          "switchMask": 0
+        },
+        {
+          "row": 7,
+          "col": 10,
+          "direction": -1,
+          "time": 72,
+          "switchMask": 0
+        },
+        {
+          "row": 8,
+          "col": 10,
+          "direction": -1,
+          "time": 80,
+          "switchMask": 0
+        },
+        {
+          "row": 9,
+          "col": 10,
+          "direction": 1,
+          "time": 88,
+          "switchMask": 0
+        },
+        {
+          "row": 10,
+          "col": 10,
+          "direction": -1,
+          "time": 96,
+          "switchMask": 0
+        },
+        {
+          "row": 11,
+          "col": 9,
+          "direction": -1,
+          "time": 104,
+          "switchMask": 0
+        },
+        {
+          "row": 12,
+          "col": 9,
+          "direction": -1,
+          "time": 112,
+          "switchMask": 0
+        },
+        {
+          "row": 13,
+          "col": 9,
+          "direction": 1,
+          "time": 120,
+          "switchMask": 0
+        },
+        {
+          "row": 14,
+          "col": 10,
+          "direction": 1,
+          "time": 128,
+          "switchMask": 0
+        }
+      ]
+    },
+    {
+      "reachable": true,
+      "expanded": 120,
+      "path": [
+        {
+          "row": 0,
+          "col": 9,
+          "direction": 1,
+          "time": 0
+        },
+        {
+          "row": 1,
+          "col": 9,
+          "direction": 1,
+          "time": 8,
+          "switchMask": 0
+        },
+        {
+          "row": 2,
+          "col": 10,
+          "direction": 1,
+          "time": 16,
+          "switchMask": 0
+        },
+        {
+          "row": 3,
+          "col": 10,
+          "direction": 1,
+          "time": 24,
+          "switchMask": 0
+        },
+        {
+          "row": 3,
+          "col": 10,
+          "direction": 1,
+          "time": 32,
+          "switchMask": 0
+        },
+        {
+          "row": 3,
+          "col": 10,
+          "direction": 1,
+          "time": 40,
+          "switchMask": 0
+        },
+        {
+          "row": 4,
+          "col": 10,
+          "direction": -1,
+          "time": 48,
+          "switchMask": 0
+        },
+        {
+          "row": 5,
+          "col": 10,
+          "direction": 1,
+          "time": 56,
+          "switchMask": 0
+        },
+        {
+          "row": 6,
+          "col": 11,
+          "direction": 1,
+          "time": 64,
+          "switchMask": 0
+        },
+        {
+          "row": 7,
+          "col": 10,
+          "direction": -1,
+          "time": 72,
+          "switchMask": 0
+        },
+        {
+          "row": 8,
+          "col": 10,
+          "direction": -1,
+          "time": 80,
+          "switchMask": 0
+        },
+        {
+          "row": 9,
+          "col": 10,
+          "direction": 1,
+          "time": 88,
+          "switchMask": 0
+        },
+        {
+          "row": 10,
+          "col": 10,
+          "direction": -1,
+          "time": 96,
+          "switchMask": 0
+        },
+        {
+          "row": 11,
+          "col": 9,
+          "direction": -1,
+          "time": 104,
+          "switchMask": 0
+        },
+        {
+          "row": 12,
+          "col": 9,
+          "direction": -1,
+          "time": 112,
+          "switchMask": 0
+        },
+        {
+          "row": 13,
+          "col": 9,
+          "direction": 1,
+          "time": 120,
+          "switchMask": 0
+        },
+        {
+          "row": 14,
+          "col": 9,
+          "direction": -1,
+          "time": 128,
+          "switchMask": 0
+        },
+        {
+          "row": 15,
+          "col": 9,
+          "direction": 1,
+          "time": 136,
+          "switchMask": 0
+        },
+        {
+          "row": 16,
+          "col": 10,
+          "direction": 1,
+          "time": 144,
+          "switchMask": 0
+        },
+        {
+          "row": 17,
+          "col": 9,
+          "direction": -1,
+          "time": 152,
+          "switchMask": 0
+        },
+        {
+          "row": 18,
+          "col": 9,
+          "direction": -1,
+          "time": 160,
+          "switchMask": 0
+        },
+        {
+          "row": 19,
+          "col": 8,
+          "direction": -1,
+          "time": 168,
+          "switchMask": 0
+        },
+        {
+          "row": 20,
+          "col": 8,
+          "direction": -1,
+          "time": 176,
+          "switchMask": 0
+        },
+        {
+          "row": 21,
+          "col": 7,
+          "direction": -1,
+          "time": 184,
+          "switchMask": 0
+        },
+        {
+          "row": 22,
+          "col": 7,
+          "direction": -1,
+          "time": 192,
+          "switchMask": 0
+        }
+      ]
+    }
+  ],
+  "commitmentProof": [
+    {
+      "from": 1,
+      "to": 2,
+      "blocked": {
+        "reachable": false,
+        "expanded": 2146,
+        "path": []
+      },
+      "channelNotFlipped": {
+        "reachable": true,
+        "expanded": 6,
+        "path": [
+          {
+            "row": 0,
+            "col": 9,
+            "direction": 1,
+            "time": 0
+          },
+          {
+            "row": 1,
+            "col": 8,
+            "direction": -1,
+            "time": 8,
+            "switchMask": 0
+          },
+          {
+            "row": 2,
+            "col": 8,
+            "direction": -1,
+            "time": 16,
+            "switchMask": 0
+          },
+          {
+            "row": 3,
+            "col": 7,
+            "direction": -1,
+            "time": 24,
+            "switchMask": 0
+          },
+          {
+            "row": 4,
+            "col": 7,
+            "direction": -1,
+            "time": 32,
+            "switchMask": 0
+          },
+          {
+            "row": 5,
+            "col": 7,
+            "direction": 1,
+            "time": 40,
+            "switchMask": 0
+          },
+          {
+            "row": 6,
+            "col": 7,
+            "direction": -1,
+            "time": 48,
+            "switchMask": 0
+          },
+          {
+            "row": 7,
+            "col": 7,
+            "direction": 1,
+            "time": 56,
+            "switchMask": 0
+          },
+          {
+            "row": 8,
+            "col": 7,
+            "direction": -1,
+            "time": 64,
+            "switchMask": 0
+          },
+          {
+            "row": 9,
+            "col": 7,
+            "direction": 1,
+            "time": 72,
+            "switchMask": 1
+          },
+          {
+            "row": 10,
+            "col": 8,
+            "direction": 1,
+            "time": 80,
+            "switchMask": 0
+          },
+          {
+            "row": 11,
+            "col": 8,
+            "direction": 1,
+            "time": 88,
+            "switchMask": 0
+          },
+          {
+            "row": 12,
+            "col": 9,
+            "direction": 1,
+            "time": 96,
+            "switchMask": 0
+          },
+          {
+            "row": 13,
+            "col": 9,
+            "direction": 1,
+            "time": 104,
+            "switchMask": 0
+          },
+          {
+            "row": 14,
+            "col": 10,
+            "direction": 1,
+            "time": 112,
+            "switchMask": 0
+          }
+        ]
+      }
+    },
+    {
+      "from": 1,
+      "to": 3,
+      "blocked": {
+        "reachable": false,
+        "expanded": 2146,
+        "path": []
+      },
+      "channelNotFlipped": {
+        "reachable": true,
+        "expanded": 622,
+        "path": [
+          {
+            "row": 0,
+            "col": 9,
+            "direction": 1,
+            "time": 0
+          },
+          {
+            "row": 1,
+            "col": 8,
+            "direction": -1,
+            "time": 8,
+            "switchMask": 0
+          },
+          {
+            "row": 2,
+            "col": 8,
+            "direction": -1,
+            "time": 16,
+            "switchMask": 0
+          },
+          {
+            "row": 3,
+            "col": 7,
+            "direction": -1,
+            "time": 24,
+            "switchMask": 0
+          },
+          {
+            "row": 4,
+            "col": 7,
+            "direction": -1,
+            "time": 32,
+            "switchMask": 0
+          },
+          {
+            "row": 5,
+            "col": 7,
+            "direction": 1,
+            "time": 40,
+            "switchMask": 0
+          },
+          {
+            "row": 6,
+            "col": 7,
+            "direction": -1,
+            "time": 48,
+            "switchMask": 0
+          },
+          {
+            "row": 7,
+            "col": 7,
+            "direction": 1,
+            "time": 56,
+            "switchMask": 0
+          },
+          {
+            "row": 8,
+            "col": 7,
+            "direction": -1,
+            "time": 64,
+            "switchMask": 0
+          },
+          {
+            "row": 9,
+            "col": 7,
+            "direction": 1,
+            "time": 72,
+            "switchMask": 1
+          },
+          {
+            "row": 10,
+            "col": 8,
+            "direction": 1,
+            "time": 80,
+            "switchMask": 0
+          },
+          {
+            "row": 11,
+            "col": 8,
+            "direction": 1,
+            "time": 88,
+            "switchMask": 0
+          },
+          {
+            "row": 12,
+            "col": 9,
+            "direction": 1,
+            "time": 96,
+            "switchMask": 0
+          },
+          {
+            "row": 13,
+            "col": 9,
+            "direction": 1,
+            "time": 104,
+            "switchMask": 0
+          },
+          {
+            "row": 14,
+            "col": 9,
+            "direction": -1,
+            "time": 112,
+            "switchMask": 0
+          },
+          {
+            "row": 15,
+            "col": 9,
+            "direction": 1,
+            "time": 120,
+            "switchMask": 0
+          },
+          {
+            "row": 16,
+            "col": 10,
+            "direction": 1,
+            "time": 128,
+            "switchMask": 0
+          },
+          {
+            "row": 17,
+            "col": 9,
+            "direction": -1,
+            "time": 136,
+            "switchMask": 0
+          },
+          {
+            "row": 18,
+            "col": 9,
+            "direction": -1,
+            "time": 144,
+            "switchMask": 0
+          },
+          {
+            "row": 19,
+            "col": 8,
+            "direction": -1,
+            "time": 152,
+            "switchMask": 0
+          },
+          {
+            "row": 20,
+            "col": 8,
+            "direction": -1,
+            "time": 160,
+            "switchMask": 0
+          },
+          {
+            "row": 20,
+            "col": 8,
+            "direction": 1,
+            "time": 168,
+            "switchMask": 0
+          },
+          {
+            "row": 20,
+            "col": 8,
+            "direction": 1,
+            "time": 176,
+            "switchMask": 0
+          },
+          {
+            "row": 20,
+            "col": 8,
+            "direction": 1,
+            "time": 184,
+            "switchMask": 0
+          },
+          {
+            "row": 21,
+            "col": 7,
+            "direction": -1,
+            "time": 192,
+            "switchMask": 0
+          },
+          {
+            "row": 22,
+            "col": 7,
+            "direction": -1,
+            "time": 200,
+            "switchMask": 0
+          }
+        ]
+      }
+    },
+    {
+      "from": 2,
+      "to": 3,
+      "blocked": {
+        "reachable": false,
+        "expanded": 2011,
+        "path": []
+      },
+      "channelNotFlipped": {
+        "reachable": true,
+        "expanded": 1448,
+        "path": [
+          {
+            "row": 0,
+            "col": 9,
+            "direction": 1,
+            "time": 0
+          },
+          {
+            "row": 1,
+            "col": 9,
+            "direction": 1,
+            "time": 8,
+            "switchMask": 0
+          },
+          {
+            "row": 2,
+            "col": 10,
+            "direction": 1,
+            "time": 16,
+            "switchMask": 0
+          },
+          {
+            "row": 3,
+            "col": 9,
+            "direction": -1,
+            "time": 24,
+            "switchMask": 0
+          },
+          {
+            "row": 4,
+            "col": 9,
+            "direction": -1,
+            "time": 32,
+            "switchMask": 0
+          },
+          {
+            "row": 5,
+            "col": 9,
+            "direction": 1,
+            "time": 40,
+            "switchMask": 0
+          },
+          {
+            "row": 6,
+            "col": 10,
+            "direction": 1,
+            "time": 48,
+            "switchMask": 0
+          },
+          {
+            "row": 7,
+            "col": 9,
+            "direction": -1,
+            "time": 56,
+            "switchMask": 0
+          },
+          {
+            "row": 8,
+            "col": 9,
+            "direction": -1,
+            "time": 64,
+            "switchMask": 0
+          },
+          {
+            "row": 9,
+            "col": 9,
+            "direction": 1,
+            "time": 72,
+            "switchMask": 0
+          },
+          {
+            "row": 10,
+            "col": 9,
+            "direction": -1,
+            "time": 80,
+            "switchMask": 0
+          },
+          {
+            "row": 11,
+            "col": 8,
+            "direction": -1,
+            "time": 88,
+            "switchMask": 0
+          },
+          {
+            "row": 12,
+            "col": 9,
+            "direction": 1,
+            "time": 96,
+            "switchMask": 0
+          },
+          {
+            "row": 13,
+            "col": 9,
+            "direction": 1,
+            "time": 104,
+            "switchMask": 0
+          },
+          {
+            "row": 14,
+            "col": 10,
+            "direction": 1,
+            "time": 112,
+            "switchMask": 0
+          },
+          {
+            "row": 15,
+            "col": 10,
+            "direction": 1,
+            "time": 120,
+            "switchMask": 1
+          },
+          {
+            "row": 16,
+            "col": 10,
+            "direction": -1,
+            "time": 128,
+            "switchMask": 0
+          },
+          {
+            "row": 17,
+            "col": 9,
+            "direction": -1,
+            "time": 136,
+            "switchMask": 0
+          },
+          {
+            "row": 18,
+            "col": 9,
+            "direction": -1,
+            "time": 144,
+            "switchMask": 0
+          },
+          {
+            "row": 19,
+            "col": 8,
+            "direction": -1,
+            "time": 152,
+            "switchMask": 0
+          },
+          {
+            "row": 20,
+            "col": 8,
+            "direction": -1,
+            "time": 160,
+            "switchMask": 0
+          },
+          {
+            "row": 20,
+            "col": 8,
+            "direction": 1,
+            "time": 168,
+            "switchMask": 0
+          },
+          {
+            "row": 20,
+            "col": 8,
+            "direction": 1,
+            "time": 176,
+            "switchMask": 0
+          },
+          {
+            "row": 20,
+            "col": 8,
+            "direction": 1,
+            "time": 184,
+            "switchMask": 0
+          },
+          {
+            "row": 21,
+            "col": 7,
+            "direction": -1,
+            "time": 192,
+            "switchMask": 0
+          },
+          {
+            "row": 22,
+            "col": 7,
+            "direction": -1,
+            "time": 200,
+            "switchMask": 0
+          }
+        ]
+      }
+    }
+  ],
+  "allPaths": {
+    "exhaustive": true,
+    "expanded": 23589,
+    "maxPicked": 1,
+    "maximumLivesBeforeToll": [
+      3,
+      4,
+      6,
+      3
+    ],
+    "objectivesByFirstChoice": [
+      0,
+      0,
+      8,
+      0
+    ],
+    "finishByFirstChoice": [
+      0,
+      0,
+      24,
+      0
+    ],
+    "escapedWithoutFinish": 0,
+    "timerMaximum": 384
+  },
+  "nativeAcceptance": {
+    "authoredHearts": "requires root preserve authored story hearts instead of survival RNG",
+    "collisionDrain": "requires root full-tock collision parity; native queued-turn partial-drain exploit is not accepted evidence"
+  }
+}

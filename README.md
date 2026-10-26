@@ -117,3 +117,15 @@ leaning right is ON. The image changes with the per-run channel mask and resets
 on restart. PNG sources retain high-resolution transparency and render in one
 32-pixel logical board cell. Collectibles disappear when collected; switches and
 speed fields remain visible after crossing.
+
+## Pack 4 puzzle review
+
+The ten new puzzles follow five introductory levels. Start `npm run dev` and
+open `/snabbit-editor/puzzle-review.html` to compare each ImageGen concept with
+its actual playable JSON and scrub its solution. The review preserves editor
+drafts. See [the campaign notes](design/pack4-puzzles/README.md) for the ten
+mechanics, counterfactual proofs and native frame-parity results.
+
+`npm run test:puzzles` runs all ten authored route/counterfactual validators.
+The production build includes the comparison page; it deploys with the editor
+when the pull request is merged.

@@ -1,0 +1,51 @@
+{
+  "winning": {
+    "status": "finished",
+    "row": 57,
+    "col": 4,
+    "lives": 1,
+    "stars": 3,
+    "time": 488,
+    "crashes": 3,
+    "score": 1355,
+    "turns": 23
+  },
+  "winningExpanded": 22982,
+  "counterfactual": {
+    "status": "exhausted",
+    "expanded": 29053,
+    "bestStars": 1
+  },
+  "phases": [
+    {
+      "extraTicks": 0,
+      "arrival": 280,
+      "state": true,
+      "hp": 200
+    },
+    {
+      "extraTicks": 8,
+      "arrival": 288,
+      "state": true,
+      "hp": 200
+    },
+    {
+      "extraTicks": 16,
+      "arrival": 296,
+      "state": true,
+      "hp": 200
+    },
+    {
+      "extraTicks": 24,
+      "arrival": 304,
+      "state": false,
+      "hp": 0
+    },
+    {
+      "extraTicks": 32,
+      "arrival": 312,
+      "state": true,
+      "hp": 200
+    }
+  ]
+}

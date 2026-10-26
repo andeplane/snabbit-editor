@@ -35,5 +35,9 @@ function repositoryFiles(): Plugin {
 export default defineConfig({
   base: standalone ? "/snabbit-editor/" : "/",
   plugins: [react(), repositoryFiles()],
+  build: { rollupOptions: { input: {
+    editor: fileURLToPath(new URL("./index.html", import.meta.url)),
+    review: fileURLToPath(new URL("./puzzle-review.html", import.meta.url)),
+  } } },
   server: { host: "127.0.0.1", port: 5173, strictPort: true },
 });

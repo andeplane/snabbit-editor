@@ -1,0 +1,1 @@
+{"extends":"../../../tsconfig.json","compilerOptions":{"types":["node"],"typeRoots":["/Users/anderhaf/repos/snabbit/editor/node_modules/@types"],"baseUrl":"../../..","paths":{"*":["/Users/anderhaf/repos/snabbit/editor/node_modules/*"]}},"include":["validation.ts"]}

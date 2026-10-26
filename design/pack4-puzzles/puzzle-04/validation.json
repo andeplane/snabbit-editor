@@ -1,0 +1,721 @@
+{
+  "id": "4010",
+  "name": "Reverse the Rhythm",
+  "width": 16,
+  "height": 66,
+  "authoredRoute": {
+    "waypoints": [
+      [
+        8,
+        10
+      ],
+      [
+        12,
+        12
+      ],
+      [
+        24,
+        9
+      ],
+      [
+        31,
+        8
+      ],
+      [
+        38,
+        7
+      ],
+      [
+        42,
+        5
+      ],
+      [
+        48,
+        7
+      ],
+      [
+        56,
+        9
+      ],
+      [
+        62,
+        8
+      ]
+    ],
+    "directions": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      1,
+      1,
+      1,
+      1,
+      -1,
+      -1,
+      -1,
+      1,
+      -1,
+      -1
+    ],
+    "path": [
+      {
+        "row": 0,
+        "col": 9,
+        "direction": 1,
+        "time": 0,
+        "switchMask": 0
+      },
+      {
+        "row": 1,
+        "col": 9,
+        "direction": 1,
+        "time": 8,
+        "switchMask": 0
+      },
+      {
+        "row": 2,
+        "col": 10,
+        "direction": 1,
+        "time": 16,
+        "switchMask": 0
+      },
+      {
+        "row": 3,
+        "col": 10,
+        "direction": 1,
+        "time": 24,
+        "switchMask": 0
+      },
+      {
+        "row": 4,
+        "col": 11,
+        "direction": 1,
+        "time": 32,
+        "switchMask": 0
+      },
+      {
+        "row": 5,
+        "col": 11,
+        "direction": 1,
+        "time": 40,
+        "switchMask": 0
+      },
+      {
+        "row": 6,
+        "col": 11,
+        "direction": -1,
+        "time": 48,
+        "switchMask": 0
+      },
+      {
+        "row": 7,
+        "col": 10,
+        "direction": -1,
+        "time": 56,
+        "switchMask": 0
+      },
+      {
+        "row": 8,
+        "col": 10,
+        "direction": -1,
+        "time": 64,
+        "switchMask": 0
+      },
+      {
+        "row": 9,
+        "col": 10,
+        "direction": 1,
+        "time": 72,
+        "switchMask": 0
+      },
+      {
+        "row": 10,
+        "col": 11,
+        "direction": 1,
+        "time": 80,
+        "switchMask": 0
+      },
+      {
+        "row": 11,
+        "col": 11,
+        "direction": 1,
+        "time": 88,
+        "switchMask": 0
+      },
+      {
+        "row": 12,
+        "col": 12,
+        "direction": 1,
+        "time": 96,
+        "switchMask": 0
+      },
+      {
+        "row": 13,
+        "col": 12,
+        "direction": 1,
+        "time": 104,
+        "switchMask": 1
+      },
+      {
+        "row": 14,
+        "col": 13,
+        "direction": 1,
+        "time": 112,
+        "switchMask": 1
+      },
+      {
+        "row": 15,
+        "col": 13,
+        "direction": 1,
+        "time": 120,
+        "switchMask": 1
+      },
+      {
+        "row": 16,
+        "col": 13,
+        "direction": -1,
+        "time": 128,
+        "switchMask": 1
+      },
+      {
+        "row": 17,
+        "col": 12,
+        "direction": -1,
+        "time": 136,
+        "switchMask": 1
+      },
+      {
+        "row": 18,
+        "col": 12,
+        "direction": -1,
+        "time": 144,
+        "switchMask": 1
+      },
+      {
+        "row": 19,
+        "col": 11,
+        "direction": -1,
+        "time": 152,
+        "switchMask": 1
+      },
+      {
+        "row": 20,
+        "col": 11,
+        "direction": -1,
+        "time": 160,
+        "switchMask": 1
+      },
+      {
+        "row": 21,
+        "col": 10,
+        "direction": -1,
+        "time": 168,
+        "switchMask": 1
+      },
+      {
+        "row": 22,
+        "col": 10,
+        "direction": -1,
+        "time": 176,
+        "switchMask": 1
+      },
+      {
+        "row": 23,
+        "col": 9,
+        "direction": -1,
+        "time": 184,
+        "switchMask": 1
+      },
+      {
+        "row": 24,
+        "col": 9,
+        "direction": -1,
+        "time": 192,
+        "switchMask": 1
+      },
+      {
+        "row": 25,
+        "col": 8,
+        "direction": -1,
+        "time": 200,
+        "switchMask": 1
+      },
+      {
+        "row": 26,
+        "col": 8,
+        "direction": -1,
+        "time": 208,
+        "switchMask": 1
+      },
+      {
+        "row": 27,
+        "col": 8,
+        "direction": 1,
+        "time": 216,
+        "switchMask": 1
+      },
+      {
+        "row": 28,
+        "col": 8,
+        "direction": -1,
+        "time": 224,
+        "switchMask": 1
+      },
+      {
+        "row": 29,
+        "col": 7,
+        "direction": -1,
+        "time": 232,
+        "switchMask": 1
+      },
+      {
+        "row": 30,
+        "col": 8,
+        "direction": 1,
+        "time": 240,
+        "switchMask": 1
+      },
+      {
+        "row": 31,
+        "col": 8,
+        "direction": 1,
+        "time": 248,
+        "switchMask": 1
+      },
+      {
+        "row": 32,
+        "col": 9,
+        "direction": 1,
+        "time": 256,
+        "switchMask": 1
+      },
+      {
+        "row": 33,
+        "col": 9,
+        "direction": 1,
+        "time": 264,
+        "switchMask": 1
+      },
+      {
+        "row": 34,
+        "col": 9,
+        "direction": -1,
+        "time": 272,
+        "switchMask": 1
+      },
+      {
+        "row": 35,
+        "col": 8,
+        "direction": -1,
+        "time": 280,
+        "switchMask": 1
+      },
+      {
+        "row": 36,
+        "col": 8,
+        "direction": -1,
+        "time": 288,
+        "switchMask": 1
+      },
+      {
+        "row": 37,
+        "col": 7,
+        "direction": -1,
+        "time": 296,
+        "switchMask": 1
+      },
+      {
+        "row": 38,
+        "col": 7,
+        "direction": -1,
+        "time": 304,
+        "switchMask": 1
+      },
+      {
+        "row": 39,
+        "col": 6,
+        "direction": -1,
+        "time": 312,
+        "switchMask": 0
+      },
+      {
+        "row": 40,
+        "col": 6,
+        "direction": -1,
+        "time": 320,
+        "switchMask": 0
+      },
+      {
+        "row": 41,
+        "col": 5,
+        "direction": -1,
+        "time": 328,
+        "switchMask": 0
+      },
+      {
+        "row": 42,
+        "col": 5,
+        "direction": -1,
+        "time": 336,
+        "switchMask": 0
+      },
+      {
+        "row": 43,
+        "col": 4,
+        "direction": -1,
+        "time": 344,
+        "switchMask": 0
+      },
+      {
+        "row": 44,
+        "col": 5,
+        "direction": 1,
+        "time": 352,
+        "switchMask": 0
+      },
+      {
+        "row": 45,
+        "col": 5,
+        "direction": 1,
+        "time": 360,
+        "switchMask": 0
+      },
+      {
+        "row": 46,
+        "col": 6,
+        "direction": 1,
+        "time": 368,
+        "switchMask": 0
+      },
+      {
+        "row": 47,
+        "col": 6,
+        "direction": 1,
+        "time": 376,
+        "switchMask": 0
+      },
+      {
+        "row": 48,
+        "col": 7,
+        "direction": 1,
+        "time": 384,
+        "switchMask": 0
+      },
+      {
+        "row": 49,
+        "col": 7,
+        "direction": 1,
+        "time": 392,
+        "switchMask": 0
+      },
+      {
+        "row": 50,
+        "col": 8,
+        "direction": 1,
+        "time": 400,
+        "switchMask": 0
+      },
+      {
+        "row": 51,
+        "col": 8,
+        "direction": 1,
+        "time": 408,
+        "switchMask": 0
+      },
+      {
+        "row": 52,
+        "col": 8,
+        "direction": -1,
+        "time": 416,
+        "switchMask": 0
+      },
+      {
+        "row": 53,
+        "col": 7,
+        "direction": -1,
+        "time": 424,
+        "switchMask": 0
+      },
+      {
+        "row": 54,
+        "col": 8,
+        "direction": 1,
+        "time": 432,
+        "switchMask": 0
+      },
+      {
+        "row": 55,
+        "col": 8,
+        "direction": 1,
+        "time": 440,
+        "switchMask": 0
+      },
+      {
+        "row": 56,
+        "col": 9,
+        "direction": 1,
+        "time": 448,
+        "switchMask": 0
+      },
+      {
+        "row": 57,
+        "col": 9,
+        "direction": 1,
+        "time": 456,
+        "switchMask": 0
+      },
+      {
+        "row": 58,
+        "col": 9,
+        "direction": -1,
+        "time": 464,
+        "switchMask": 0
+      },
+      {
+        "row": 59,
+        "col": 8,
+        "direction": -1,
+        "time": 472,
+        "switchMask": 0
+      },
+      {
+        "row": 60,
+        "col": 8,
+        "direction": -1,
+        "time": 480,
+        "switchMask": 0
+      },
+      {
+        "row": 61,
+        "col": 8,
+        "direction": 1,
+        "time": 488,
+        "switchMask": 0
+      },
+      {
+        "row": 62,
+        "col": 8,
+        "direction": -1,
+        "time": 496,
+        "switchMask": 0
+      },
+      {
+        "row": 62,
+        "col": 8,
+        "direction": -1,
+        "time": 504,
+        "switchMask": 0
+      }
+    ]
+  },
+  "winningSummary": {
+    "status": "finished",
+    "stars": 3,
+    "lives": 3,
+    "score": 3445,
+    "time": 504,
+    "crashes": 0,
+    "diamonds": 1,
+    "gems": 4,
+    "switchMask": 0,
+    "switchEvents": [
+      {
+        "row": 12,
+        "col": 12,
+        "time": 104,
+        "before": 0,
+        "after": 1
+      },
+      {
+        "row": 38,
+        "col": 7,
+        "time": 312,
+        "before": 1,
+        "after": 0
+      }
+    ]
+  },
+  "rhythm": [
+    {
+      "row": 24,
+      "col": 9,
+      "time": 192,
+      "intrinsicState": true,
+      "phase": 0.5,
+      "mask": 1,
+      "effectiveHP": 0,
+      "wrongMaskHP": 200,
+      "remainingTicksToPhaseChange": 32
+    },
+    {
+      "row": 48,
+      "col": 7,
+      "time": 384,
+      "intrinsicState": false,
+      "phase": 0.5,
+      "mask": 0,
+      "effectiveHP": 0,
+      "wrongMaskHP": 200,
+      "remainingTicksToPhaseChange": 32
+    }
+  ],
+  "optimum": {
+    "status": "optimal",
+    "expanded": 513,
+    "score": 3450,
+    "turns": 12,
+    "stars": 3,
+    "crashes": 0
+  },
+  "counterfactuals": [
+    {
+      "name": "skip first inversion",
+      "winningDirectionsReplay": {
+        "status": "dead",
+        "row": 23,
+        "time": 216,
+        "lives": 0,
+        "stars": 1,
+        "crashes": 3,
+        "switchEvents": []
+      },
+      "zeroDamageSearch": {
+        "status": "unreachable",
+        "expanded": 208,
+        "stars": 0
+      }
+    },
+    {
+      "name": "keep inversion / skip reset",
+      "winningDirectionsReplay": {
+        "status": "dead",
+        "row": 47,
+        "time": 408,
+        "lives": 0,
+        "stars": 3,
+        "crashes": 3,
+        "switchEvents": [
+          {
+            "row": 12,
+            "col": 12,
+            "time": 104,
+            "before": 0,
+            "after": 1
+          }
+        ]
+      },
+      "zeroDamageSearch": {
+        "status": "unreachable",
+        "expanded": 470,
+        "stars": 0
+      }
+    },
+    {
+      "name": "replace rhythm with permanent ON gates",
+      "winningDirectionsReplay": {
+        "status": "dead",
+        "row": 47,
+        "time": 408,
+        "lives": 0,
+        "stars": 3,
+        "crashes": 3,
+        "switchEvents": [
+          {
+            "row": 12,
+            "col": 12,
+            "time": 104,
+            "before": 0,
+            "after": 1
+          },
+          {
+            "row": 38,
+            "col": 7,
+            "time": 312,
+            "before": 1,
+            "after": 0
+          }
+        ]
+      },
+      "zeroDamageSearch": {
+        "status": "optimal",
+        "expanded": 513,
+        "stars": 3
+      }
+    }
+  ],
+  "survivalChecks": [
+    {
+      "name": "skip first inversion",
+      "status": "unreachable",
+      "expanded": 3400,
+      "stars": 0,
+      "crashes": 0,
+      "score": 0
+    },
+    {
+      "name": "skip reset",
+      "status": "unreachable",
+      "expanded": 12534,
+      "stars": 0,
+      "crashes": 0,
+      "score": 0
+    }
+  ],
+  "permanentUnlockControl": {
+    "status": "finished",
+    "stars": 3,
+    "crashes": 0,
+    "mask": 1
+  },
+  "valid": true
+}

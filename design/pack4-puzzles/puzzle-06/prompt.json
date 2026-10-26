@@ -1,0 +1,11 @@
+{
+  "tool": "built-in image_gen",
+  "reference_paths": [
+    "/Users/anderhaf/repos/snabbit-editor/design/pack4-redesign/references/pack1-openings.png",
+    "/Users/anderhaf/repos/snabbit-editor/design/pack4-redesign/references/pack2-openings.png",
+    "/Users/anderhaf/repos/snabbit-editor/design/pack4-redesign/references/pack3-openings.png",
+    "/Users/anderhaf/repos/snabbit-editor/design/pack4-redesign/level-1/source-sprites.png"
+  ],
+  "generated_source_path": "/Users/anderhaf/.codex/generated_images/01a17508-69c2-70d1-aba0-3020ec4d7d3b/exec-49f10635-2272-4052-b02c-c1543444495e.png",
+  "prompt": "Use case: stylized-concept. Asset type: portrait full-level concept for the existing Snabbit iPhone puzzle game, level Earn the Way Through. Input images 1-3 are references of actual early full maps; image4 is original game sprite reference. Match those tiny faceted off-white metal asteroids, brown dirt rocks, turquoise blue gems and yellow stars on nearly black navy space. Show a single airy organic asymmetric chipped crescent / open asteroid reef, 20 staggered columns and about 50 rows, upward travel bottom to top. Bottom start opening center. Inside the crescent, three distinct compact loose blue-gem clusters of four gems each, separated by a few empty cells, invite a planned route; alternate tempting sparse gem pockets outside the crescent are too far apart to complete the combo. Upper crescent neck is a conspicuous three-cell-thick brown dirt plug; beyond it nestles the third yellow star and a white diamond; first two stars in lower and middle hollows. Player earns the extra heart through twelve blue gems before crossing dirt; do not place any loose pink/red heart in map. Three stars total. Top has thin gold finish sparkle. Composition must feel like actual hand-authored Snabbit levels: sculpted irregular asteroid masses, broad hollow, chipped rim, generous navy negative space and detached small asteroid satellites. Avoid full-width horizontal strips, repeated identical chambers, regular zigzags, continuous gem trails, labels, numbers, interface, text, colored debug wall markers. Straight top-down orthographic flat screenshot-like original game sprite rendering. Full map portrait with lower starting area and entire reward neck visible."
+}

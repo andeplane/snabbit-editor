@@ -1,0 +1,800 @@
+{
+  "id": "4005",
+  "name": "The Hollow Orchard",
+  "width": 16,
+  "height": 109,
+  "result": {
+    "status": "optimal",
+    "expanded": 950,
+    "score": 3885,
+    "turns": 10,
+    "stars": 3,
+    "crashes": 0,
+    "path": [
+      {
+        "row": 0,
+        "col": 9,
+        "direction": 1,
+        "time": 0,
+        "switchMask": 0
+      },
+      {
+        "row": 1,
+        "col": 8,
+        "direction": -1,
+        "time": 8,
+        "switchMask": 0
+      },
+      {
+        "row": 2,
+        "col": 8,
+        "direction": -1,
+        "time": 16,
+        "switchMask": 0
+      },
+      {
+        "row": 3,
+        "col": 8,
+        "direction": 1,
+        "time": 24,
+        "switchMask": 0
+      },
+      {
+        "row": 4,
+        "col": 9,
+        "direction": 1,
+        "time": 32,
+        "switchMask": 0
+      },
+      {
+        "row": 5,
+        "col": 9,
+        "direction": 1,
+        "time": 40,
+        "switchMask": 0
+      },
+      {
+        "row": 6,
+        "col": 10,
+        "direction": 1,
+        "time": 48,
+        "switchMask": 0
+      },
+      {
+        "row": 7,
+        "col": 10,
+        "direction": 1,
+        "time": 56,
+        "switchMask": 0
+      },
+      {
+        "row": 8,
+        "col": 11,
+        "direction": 1,
+        "time": 64,
+        "switchMask": 0
+      },
+      {
+        "row": 9,
+        "col": 11,
+        "direction": 1,
+        "time": 72,
+        "switchMask": 0
+      },
+      {
+        "row": 10,
+        "col": 12,
+        "direction": 1,
+        "time": 80,
+        "switchMask": 0
+      },
+      {
+        "row": 11,
+        "col": 12,
+        "direction": 1,
+        "time": 88,
+        "switchMask": 1
+      },
+      {
+        "row": 12,
+        "col": 12,
+        "direction": -1,
+        "time": 96,
+        "switchMask": 1
+      },
+      {
+        "row": 13,
+        "col": 11,
+        "direction": -1,
+        "time": 104,
+        "switchMask": 1
+      },
+      {
+        "row": 14,
+        "col": 11,
+        "direction": -1,
+        "time": 112,
+        "switchMask": 1
+      },
+      {
+        "row": 15,
+        "col": 10,
+        "direction": -1,
+        "time": 120,
+        "switchMask": 1
+      },
+      {
+        "row": 16,
+        "col": 10,
+        "direction": -1,
+        "time": 128,
+        "switchMask": 1
+      },
+      {
+        "row": 17,
+        "col": 9,
+        "direction": -1,
+        "time": 136,
+        "switchMask": 1
+      },
+      {
+        "row": 18,
+        "col": 9,
+        "direction": -1,
+        "time": 144,
+        "switchMask": 1
+      },
+      {
+        "row": 19,
+        "col": 8,
+        "direction": -1,
+        "time": 152,
+        "switchMask": 1
+      },
+      {
+        "row": 20,
+        "col": 8,
+        "direction": -1,
+        "time": 160,
+        "switchMask": 1
+      },
+      {
+        "row": 21,
+        "col": 7,
+        "direction": -1,
+        "time": 168,
+        "switchMask": 1
+      },
+      {
+        "row": 22,
+        "col": 7,
+        "direction": -1,
+        "time": 176,
+        "switchMask": 1
+      },
+      {
+        "row": 23,
+        "col": 6,
+        "direction": -1,
+        "time": 184,
+        "switchMask": 1
+      },
+      {
+        "row": 24,
+        "col": 6,
+        "direction": -1,
+        "time": 192,
+        "switchMask": 1
+      },
+      {
+        "row": 25,
+        "col": 5,
+        "direction": -1,
+        "time": 200,
+        "switchMask": 1
+      },
+      {
+        "row": 26,
+        "col": 5,
+        "direction": -1,
+        "time": 208,
+        "switchMask": 1
+      },
+      {
+        "row": 27,
+        "col": 4,
+        "direction": -1,
+        "time": 216,
+        "switchMask": 1
+      },
+      {
+        "row": 28,
+        "col": 4,
+        "direction": -1,
+        "time": 224,
+        "switchMask": 1
+      },
+      {
+        "row": 29,
+        "col": 3,
+        "direction": -1,
+        "time": 232,
+        "switchMask": 1
+      },
+      {
+        "row": 30,
+        "col": 4,
+        "direction": 1,
+        "time": 240,
+        "switchMask": 1
+      },
+      {
+        "row": 31,
+        "col": 4,
+        "direction": 1,
+        "time": 248,
+        "switchMask": 1
+      },
+      {
+        "row": 32,
+        "col": 5,
+        "direction": 1,
+        "time": 256,
+        "switchMask": 1
+      },
+      {
+        "row": 33,
+        "col": 5,
+        "direction": 1,
+        "time": 264,
+        "switchMask": 3
+      },
+      {
+        "row": 34,
+        "col": 6,
+        "direction": 1,
+        "time": 272,
+        "switchMask": 3
+      },
+      {
+        "row": 35,
+        "col": 6,
+        "direction": 1,
+        "time": 280,
+        "switchMask": 3
+      },
+      {
+        "row": 36,
+        "col": 7,
+        "direction": 1,
+        "time": 288,
+        "switchMask": 3
+      },
+      {
+        "row": 37,
+        "col": 7,
+        "direction": 1,
+        "time": 296,
+        "switchMask": 3
+      },
+      {
+        "row": 38,
+        "col": 8,
+        "direction": 1,
+        "time": 304,
+        "switchMask": 3
+      },
+      {
+        "row": 39,
+        "col": 8,
+        "direction": 1,
+        "time": 312,
+        "switchMask": 3
+      },
+      {
+        "row": 40,
+        "col": 9,
+        "direction": 1,
+        "time": 320,
+        "switchMask": 3
+      },
+      {
+        "row": 41,
+        "col": 9,
+        "direction": 1,
+        "time": 328,
+        "switchMask": 3
+      },
+      {
+        "row": 42,
+        "col": 10,
+        "direction": 1,
+        "time": 336,
+        "switchMask": 3
+      },
+      {
+        "row": 43,
+        "col": 10,
+        "direction": 1,
+        "time": 344,
+        "switchMask": 3
+      },
+      {
+        "row": 44,
+        "col": 11,
+        "direction": 1,
+        "time": 352,
+        "switchMask": 3
+      },
+      {
+        "row": 45,
+        "col": 11,
+        "direction": 1,
+        "time": 360,
+        "switchMask": 3
+      },
+      {
+        "row": 46,
+        "col": 12,
+        "direction": 1,
+        "time": 368,
+        "switchMask": 3
+      },
+      {
+        "row": 47,
+        "col": 12,
+        "direction": 1,
+        "time": 376,
+        "switchMask": 3
+      },
+      {
+        "row": 48,
+        "col": 12,
+        "direction": -1,
+        "time": 384,
+        "switchMask": 7
+      },
+      {
+        "row": 49,
+        "col": 11,
+        "direction": -1,
+        "time": 392,
+        "switchMask": 7
+      },
+      {
+        "row": 50,
+        "col": 11,
+        "direction": -1,
+        "time": 400,
+        "switchMask": 7
+      },
+      {
+        "row": 51,
+        "col": 10,
+        "direction": -1,
+        "time": 408,
+        "switchMask": 7
+      },
+      {
+        "row": 52,
+        "col": 10,
+        "direction": -1,
+        "time": 416,
+        "switchMask": 7
+      },
+      {
+        "row": 53,
+        "col": 9,
+        "direction": -1,
+        "time": 424,
+        "switchMask": 7
+      },
+      {
+        "row": 54,
+        "col": 9,
+        "direction": -1,
+        "time": 432,
+        "switchMask": 7
+      },
+      {
+        "row": 55,
+        "col": 8,
+        "direction": -1,
+        "time": 440,
+        "switchMask": 7
+      },
+      {
+        "row": 56,
+        "col": 8,
+        "direction": -1,
+        "time": 448,
+        "switchMask": 7
+      },
+      {
+        "row": 57,
+        "col": 7,
+        "direction": -1,
+        "time": 456,
+        "switchMask": 7
+      },
+      {
+        "row": 58,
+        "col": 7,
+        "direction": -1,
+        "time": 464,
+        "switchMask": 7
+      },
+      {
+        "row": 59,
+        "col": 6,
+        "direction": -1,
+        "time": 472,
+        "switchMask": 7
+      },
+      {
+        "row": 60,
+        "col": 6,
+        "direction": -1,
+        "time": 480,
+        "switchMask": 7
+      },
+      {
+        "row": 61,
+        "col": 5,
+        "direction": -1,
+        "time": 488,
+        "switchMask": 7
+      },
+      {
+        "row": 62,
+        "col": 5,
+        "direction": -1,
+        "time": 496,
+        "switchMask": 7
+      },
+      {
+        "row": 63,
+        "col": 4,
+        "direction": -1,
+        "time": 504,
+        "switchMask": 7
+      },
+      {
+        "row": 64,
+        "col": 4,
+        "direction": -1,
+        "time": 512,
+        "switchMask": 7
+      },
+      {
+        "row": 65,
+        "col": 4,
+        "direction": 1,
+        "time": 520,
+        "switchMask": 7
+      },
+      {
+        "row": 66,
+        "col": 5,
+        "direction": 1,
+        "time": 528,
+        "switchMask": 15
+      },
+      {
+        "row": 67,
+        "col": 5,
+        "direction": 1,
+        "time": 536,
+        "switchMask": 15
+      },
+      {
+        "row": 68,
+        "col": 6,
+        "direction": 1,
+        "time": 544,
+        "switchMask": 15
+      },
+      {
+        "row": 69,
+        "col": 6,
+        "direction": 1,
+        "time": 552,
+        "switchMask": 15
+      },
+      {
+        "row": 70,
+        "col": 7,
+        "direction": 1,
+        "time": 560,
+        "switchMask": 15
+      },
+      {
+        "row": 71,
+        "col": 7,
+        "direction": 1,
+        "time": 568,
+        "switchMask": 15
+      },
+      {
+        "row": 72,
+        "col": 7,
+        "direction": -1,
+        "time": 576,
+        "switchMask": 15
+      },
+      {
+        "row": 73,
+        "col": 6,
+        "direction": -1,
+        "time": 584,
+        "switchMask": 15
+      },
+      {
+        "row": 74,
+        "col": 6,
+        "direction": -1,
+        "time": 592,
+        "switchMask": 15
+      },
+      {
+        "row": 75,
+        "col": 5,
+        "direction": -1,
+        "time": 600,
+        "switchMask": 15
+      },
+      {
+        "row": 76,
+        "col": 5,
+        "direction": -1,
+        "time": 608,
+        "switchMask": 15
+      },
+      {
+        "row": 77,
+        "col": 4,
+        "direction": -1,
+        "time": 616,
+        "switchMask": 15
+      },
+      {
+        "row": 78,
+        "col": 4,
+        "direction": -1,
+        "time": 624,
+        "switchMask": 15
+      },
+      {
+        "row": 79,
+        "col": 3,
+        "direction": -1,
+        "time": 632,
+        "switchMask": 15
+      },
+      {
+        "row": 80,
+        "col": 3,
+        "direction": -1,
+        "time": 640,
+        "switchMask": 15
+      },
+      {
+        "row": 81,
+        "col": 2,
+        "direction": -1,
+        "time": 648,
+        "switchMask": 31
+      },
+      {
+        "row": 82,
+        "col": 2,
+        "direction": -1,
+        "time": 656,
+        "switchMask": 31
+      },
+      {
+        "row": 83,
+        "col": 2,
+        "direction": 1,
+        "time": 664,
+        "switchMask": 31
+      },
+      {
+        "row": 84,
+        "col": 3,
+        "direction": 1,
+        "time": 672,
+        "switchMask": 31
+      },
+      {
+        "row": 85,
+        "col": 3,
+        "direction": 1,
+        "time": 680,
+        "switchMask": 31
+      },
+      {
+        "row": 86,
+        "col": 4,
+        "direction": 1,
+        "time": 688,
+        "switchMask": 31
+      },
+      {
+        "row": 87,
+        "col": 4,
+        "direction": 1,
+        "time": 696,
+        "switchMask": 31
+      },
+      {
+        "row": 88,
+        "col": 5,
+        "direction": 1,
+        "time": 704,
+        "switchMask": 31
+      },
+      {
+        "row": 89,
+        "col": 5,
+        "direction": 1,
+        "time": 712,
+        "switchMask": 31
+      },
+      {
+        "row": 90,
+        "col": 6,
+        "direction": 1,
+        "time": 720,
+        "switchMask": 31
+      },
+      {
+        "row": 91,
+        "col": 6,
+        "direction": 1,
+        "time": 728,
+        "switchMask": 31
+      },
+      {
+        "row": 92,
+        "col": 7,
+        "direction": 1,
+        "time": 736,
+        "switchMask": 31
+      },
+      {
+        "row": 93,
+        "col": 7,
+        "direction": 1,
+        "time": 744,
+        "switchMask": 31
+      },
+      {
+        "row": 94,
+        "col": 8,
+        "direction": 1,
+        "time": 752,
+        "switchMask": 31
+      },
+      {
+        "row": 95,
+        "col": 8,
+        "direction": 1,
+        "time": 760,
+        "switchMask": 31
+      },
+      {
+        "row": 96,
+        "col": 9,
+        "direction": 1,
+        "time": 768,
+        "switchMask": 31
+      },
+      {
+        "row": 97,
+        "col": 8,
+        "direction": -1,
+        "time": 776,
+        "switchMask": 31
+      },
+      {
+        "row": 98,
+        "col": 8,
+        "direction": -1,
+        "time": 784,
+        "switchMask": 31
+      },
+      {
+        "row": 99,
+        "col": 7,
+        "direction": -1,
+        "time": 792,
+        "switchMask": 31
+      },
+      {
+        "row": 100,
+        "col": 7,
+        "direction": -1,
+        "time": 800,
+        "switchMask": 31
+      },
+      {
+        "row": 101,
+        "col": 7,
+        "direction": 1,
+        "time": 808,
+        "switchMask": 31
+      },
+      {
+        "row": 102,
+        "col": 8,
+        "direction": 1,
+        "time": 816,
+        "switchMask": 31
+      },
+      {
+        "row": 103,
+        "col": 8,
+        "direction": 1,
+        "time": 824,
+        "switchMask": 31
+      },
+      {
+        "row": 104,
+        "col": 9,
+        "direction": 1,
+        "time": 832,
+        "switchMask": 31
+      },
+      {
+        "row": 104,
+        "col": 9,
+        "direction": 1,
+        "time": 840,
+        "switchMask": 31
+      }
+    ]
+  },
+  "replay": {
+    "status": "finished",
+    "stars": 3,
+    "crashes": 0,
+    "lives": 3,
+    "gems": 7,
+    "diamonds": 1,
+    "switchMask": 31
+  },
+  "blockedChannels": [
+    {
+      "channel": "A",
+      "status": "unreachable",
+      "expanded": 161,
+      "score": 0
+    },
+    {
+      "channel": "B",
+      "status": "unreachable",
+      "expanded": 379,
+      "score": 0
+    },
+    {
+      "channel": "C",
+      "status": "unreachable",
+      "expanded": 504,
+      "score": 0
+    },
+    {
+      "channel": "D",
+      "status": "unreachable",
+      "expanded": 658,
+      "score": 0
+    },
+    {
+      "channel": "E",
+      "status": "unreachable",
+      "expanded": 861,
+      "score": 0
+    }
+  ],
+  "valid": true
+}

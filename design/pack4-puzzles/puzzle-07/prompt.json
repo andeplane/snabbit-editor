@@ -1,0 +1,18 @@
+{
+  "tool": "built-in image_gen.imagegen",
+  "mode": "edit/refine",
+  "prompt": "Use case: stylized-concept. EDIT / REFINE image 1 into a faithful flat 2D Snabbit whole-level map. Image 1 is the existing concept to correct; images 2 and 3 are authoritative original Snabbit map style references; image 4 is the authoritative original sprite sheet (ignore its text labels); image 5 is the current real native JSON composition and flat offset geometry, which is the authoritative spatial layout to follow closely. Make a portrait map screenshot on a uniform dark navy background. Use small independent faceted white/gray metal rock sprites arranged in staggered offset rows; each rock is one flat screen-facing sprite, all same scale, like images2–5. All passageways are simply empty navy negative space between sprite masses. NO hexagonal floor, NO platform ground, NO tiled paths, NO extrusion or cliff walls, NO isometric or perspective camera, NO 3D scene, NO ambient planet or distant asteroid illustrations. Preserve the composition of image5, refining only the organic sculpted silhouette: a broad chipped white asteroid crescent bounding an airy ascending central path, lower orange-knob lever, then a compact right-hand hollow containing an orange-knob matching lever with a red heart directly one grid-step above it. A small brown nugget choice left of the heart hollow; above the choice, a left passage crossed by three white gate sprites and a short right pocket containing exactly THREE brown dirt sprite nuggets in sequence. Both routes merge into an airy chamber with a yellow star, then a short common brown toll, then another yellow star and a very subtle horizontal finish fleck line. One yellow star below the heart fork makes THREE stars total. Four isolated tiny cyan gems. Keep these mechanics within a compact upper chamber, as in image5. No extra stars, no labels, no text, no arrows, no channel coding, no board grid lines, no trophy, no characters. Same original 2011 mobile sprite-game art language, no new asset style. The result must look like a flat original Snabbit level-editor screenshot, not a different board or platform game.",
+  "referenced_image_paths": [
+    "/Users/anderhaf/repos/snabbit-editor/design/pack4-puzzles/puzzle-07/concept-v1.png",
+    "/Users/anderhaf/repos/snabbit-editor/design/pack4-redesign/references/pack1-openings.png",
+    "/Users/anderhaf/repos/snabbit-editor/design/pack4-redesign/references/pack2-openings.png",
+    "/Users/anderhaf/repos/snabbit-editor/design/pack4-redesign/level-1/source-sprites.png",
+    "/Users/anderhaf/repos/snabbit-editor/design/pack4-puzzles/puzzle-07/actual-map.png"
+  ],
+  "savedGeneratedSourcePath": "/Users/anderhaf/.codex/generated_images/01a1750b-44c2-78d0-93c8-5a114085f281/exec-d09c180c-c50b-48f6-a850-de24fb7ad10f.png",
+  "previousVersion": {
+    "concept": "concept-v1.png",
+    "prompt": "prompt-v1.json"
+  },
+  "transparent_background": false
+}

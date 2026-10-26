@@ -1,0 +1,9 @@
+{
+  "prompt": "Use case: stylized-concept\nAsset type: Snabbit level composition concept, portrait full map\nPrimary request: Design a beautiful playable-looking Snabbit space puzzle called No Credit. Use the exact chunky faceted original metal asteroids, brown dirt, glowing pink heart pickups, yellow stars and orange/green mechanical lever from the provided sprite reference. This is a map composition reference, not UI.\nInput images: Image 1 original published Snabbit openings for organic composition; Image 2 exact existing sprite style.\nComposition: dark navy space with a tall asymmetric broken crescent asteroid, chipped lobes and varied hollows, lots of airy negative space. Snake begins bottom middle. Near the lower third one modest heart lies in the left fork, and an orange lever lies in the alternative right fork. Both paths curve toward a narrow diagonal brown-earth toll of three successive cells in the crescent throat. A rich three-heart cache sits visibly above the toll in a small hollow protected by a lever-linked metal door. Three stars lead through the throat and the airy upper sky toward a delicate finish ribbon. Brown toll clearly precedes the tempting cache in upward travel. Use staggered diagonal grid cells, wide organic shapes, subtle gaps and detached asteroid chips.\nConstraints: Keep faithful original game sprite aesthetic. No text or arrows, no invented icons, no labels, no colored wall markers. No full-width wall strips, no repeated chambers, no gem rails, no regular zigzag. Portrait 1024x1536. Show entire map.",
+  "referenced_image_paths": [
+    "/Users/anderhaf/repos/snabbit-editor/design/pack4-redesign/references/pack1-openings.png",
+    "/Users/anderhaf/repos/snabbit-editor/design/pack4-redesign/level-1/source-sprites.png"
+  ],
+  "generated_source_path": "/Users/anderhaf/.codex/generated_images/01a17599-42fb-7f12-9e7a-2dd9550fe150/exec-312e872d-4a43-4874-a1ad-63ee919fef02.png",
+  "mode": "built-in"
+}

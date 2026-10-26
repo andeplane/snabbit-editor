@@ -23,6 +23,7 @@ jobs:
           cache: npm
       - run: npm ci --no-audit --no-fund
       - run: npm run typecheck
+      - run: npm run test:puzzles
       - run: npm run test:coverage
       - run: npm run build -- --base=/snabbit-editor/
       - name: Verify the runner browser
