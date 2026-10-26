@@ -1,0 +1,10 @@
+{
+  "clock": 64,
+  "switchMask": 0,
+  "visibleGates": {
+    "393": true,
+    "394": true,
+    "775": true,
+    "776": true
+  }
+}
