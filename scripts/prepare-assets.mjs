@@ -41,3 +41,15 @@ for (const name of names) {
 }
 await writeFile(path.join(assets, "source-sizes.json"), JSON.stringify(sizes));
 console.log("Prepared original game artwork and bundled story packs.");
+const puzzleSource = path.join(editorRoot, "design/pack4-puzzles");
+if (existsSync(puzzleSource)) {
+  const review = path.join(editorRoot, "public/puzzle-review");
+  await mkdir(review, { recursive: true });
+  await cp(path.join(puzzleSource, "manifest.json"), path.join(review, "manifest.json"));
+  for (let n = 1; n <= 10; n++) {
+    const folder = `puzzle-${String(n).padStart(2, "0")}`;
+    await mkdir(path.join(review, folder), { recursive: true });
+    for (const file of ["concept.png", "level.json", "design-notes.md"])
+      await cp(path.join(puzzleSource, folder, file), path.join(review, folder, file));
+  }
+}

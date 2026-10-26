@@ -90,3 +90,71 @@ test("Earn the Way Through earns its combo heart and replays a three-star damage
   await expect(hud).not.toContainText("♥♥");
   expect(errors).toEqual([]);
 });
+test("puzzle review loads all ten concepts and scrubs every real replay to completion and reset", async ({
+  page,
+}) => {
+  test.setTimeout(90000);
+  const errors: string[] = [];
+  const missing: string[] = [];
+  page.on("pageerror", (error) => errors.push(error.message));
+  page.on("response", (response) => {
+    if (response.status() >= 400)
+      missing.push(`${response.status()} ${response.url()}`);
+  });
+  page.on("requestfailed", (request) => missing.push(request.url()));
+
+  await page.goto("./puzzle-review.html");
+  const navigation = page.getByRole("navigation", { name: "Choose puzzle" });
+  await expect(navigation.getByRole("button")).toHaveCount(10);
+  const names = [
+    "Three Switches, One Door",
+    "Borrowed Passage",
+    "Buy One Beat",
+    "Reverse the Rhythm",
+    "Program the Exit",
+    "Earn the Way Through",
+    "Leave the Refund",
+    "One Lever Only",
+    "No Credit",
+    "Spend a Heart, Save Turns",
+  ];
+  const range = page.getByLabel("Step", { exact: true });
+  const stats = page.locator("#stats");
+  for (const [index, name] of names.entries()) {
+    const number = String(index + 1).padStart(2, "0");
+    const button = navigation.getByRole("button", { name: number, exact: true });
+    await button.click();
+    await expect(page.getByRole("heading", { level: 2 })).toHaveText(
+      `${number} · ${name}`,
+    );
+    await expect(button).toHaveAttribute("aria-pressed", "true");
+    const concept = page.getByAltText(`ImageGen concept for ${name}`, {
+      exact: true,
+    });
+    await expect(concept).toBeVisible();
+    await expect(concept).toHaveAttribute(
+      "src",
+      new RegExp(`/puzzle-${number}/concept\\.png$`),
+    );
+    await expect
+      .poll(() => concept.evaluate((image: HTMLImageElement) => image.naturalWidth))
+      .toBeGreaterThan(0);
+
+    // Exercise the range's browser input event, not the review's internal state.
+    await range.focus();
+    await range.press("End");
+    await expect(range).toHaveValue((await range.getAttribute("max"))!);
+    await expect(stats).toContainText("Complete");
+    await expect(stats).toContainText("★ 3/3");
+    await expect(page.locator("#status")).not.toHaveClass("error");
+
+    await page.getByRole("button", { name: "Reset", exact: true }).click();
+    await expect(range).toHaveValue("0");
+    await expect(stats).toHaveText(/^0\/\d+ · ♥ 3 · ★ 0\/3/);
+    await expect(stats).not.toContainText("Complete");
+    await expect(page.getByRole("button", { name: "Play solution", exact: true }))
+      .toBeVisible();
+  }
+  expect(errors).toEqual([]);
+  expect(missing).toEqual([]);
+});
