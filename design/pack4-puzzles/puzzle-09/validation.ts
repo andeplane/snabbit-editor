@@ -1,6 +1,6 @@
 import { readFileSync, writeFileSync } from 'node:fs';
 import { importLevel,validateLevel } from '../../../src/core/serialization';
-import { startRun,advanceRun,nextCell,type Board,type RunState,type Direction } from '../../../src/core/simulation';
+import { startRun,advanceRun,type Board,type RunState,type Direction } from '../../../src/core/simulation';
 import { solve } from '../../../src/core/solver';
 import type { LevelData } from '../../../src/store/types';
 const dir=new URL('.',import.meta.url);

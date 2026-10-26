@@ -35,7 +35,7 @@ describe("ImageGen-first Pack4 redesign",()=>{
     });
   }
   it("retains the native diagnostic last, and gives lesson3 timer-switch combinations",()=>{
-    expect(packs["40"].levels.map(x=>x._id)).toEqual([...ids,"4001"]);
+    expect(packs["40"].levels.map(x=>x._id)).toEqual([...ids,...Array.from({length:10},(_,i)=>String(4007+i)),"4001"]);
     const b=importLevel(packs["40"].levels[2]);
     expect(b.timers.size).toBeGreaterThan(0);
     expect([...b.gates.keys()].some(index=>b.timers.has(index))).toBe(true);
